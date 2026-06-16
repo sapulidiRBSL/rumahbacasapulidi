@@ -33,7 +33,7 @@ const TOPIK = [
 //  FORMAT:
 //  judul       : judul materi
 //  topik       : id topik dari daftar TOPIK di atas
-//  jenis       : "PDF" | "Art" | "Video" | "Storyblog" | "Riset" | "Podcast"
+//  jenis       : "PDF" | "Art" | "Video" | "Storyblog" | "Riset" | "Podcast" | "Infographic"
 //  kontributor : nama kontributor
 //  tanggal     : "YYYY-MM-DD"
 //  link        : link Google Drive → klik kanan file → Share → Copy link
@@ -145,6 +145,36 @@ const MATERI = [
     link: "https://drive.google.com/file/d/1lHwDtXU5iYl7UqISW7Sg--pwPNf_7FIp/view?usp=drive_link",
     thumbnail: "architects_of_logic.jpg",
     deskripsi: "Gimana pemikiran filsuf dari balik jeruji besi WWI jadi pondasi absolut buat Programming & Bitcoin modern.",
+  },
+  {
+    judul: "Kripto: Harta Masa Depan atau Judi Modern?",
+    topik: "ekonomi",
+    jenis: "Podcast",
+    kontributor: "Podcast Kurniawan",
+    tanggal: "2026-06-16",
+    link: "https://open.spotify.com/episode/1H5nLKKXK75nu6MplSAdDo?si=OKThtg1pSzW4nZ4zpdMn_w",
+    thumbnail: "https://i.scdn.co/image/ab6765630000ba8a3860837bf00f4d27cf0709a8",
+    deskripsi: "Kripto sah jadi harta masa depan, atau cuma judi modern berbungkus teknologi? Bedah hukum Bappebti, fatwa MUI-NU-Muhammadiyah, sampai peluang ekonomi bebas riba.",
+  },
+  {
+    judul: "Lawan Bias Otak Agar Pensiun 35 Tahun",
+    topik: "ekonomi",
+    jenis: "Podcast",
+    kontributor: "Podcast Kurniawan",
+    tanggal: "2026-06-06",
+    link: "https://open.spotify.com/episode/5NPa6ulhE3JtHjhCjTmT1y",
+    thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
+    deskripsi: "Otak kita diprogram untuk konsumtif — bedah behavioral finance, compounding, dan perbandingan emas vs Bitcoin untuk anak muda yang ingin pensiun di usia 35–40 tahun.",
+  },
+  {
+    judul: "Bitcoin: The Public Map & The Mystery of Privacy",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-06-16",
+    link: "bitcoin_public_map_privacy.jpg",
+    thumbnail: "bitcoin_public_map_privacy.jpg",
+    deskripsi: "Saldo Bitcoin itu peta publik, bukan buku tabungan — gimana jejak transaksi bisa dilacak, dan cara aktifin 'stealth mode' lewat CoinJoin, Lightning Network, sampai Coin Control.",
   },
 
 ];
