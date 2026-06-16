@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rumah Baca Sapu Lidi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" />
+<style>
+  /* ── Reset & Base ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --green:      #1D9E75;
+    --green-dark: #0F6E56;
+    --green-pale: #E1F5EE;
+    --green-mid:  #5DCAA5;
+    --text:       #1a1a18;
+    --text-2:     #5a5a56;
+    --text-3:     #9a9a94;
+    --border:     rgba(0,0,0,0.10);
+    --border-2:   rgba(0,0,0,0.18);
+    --surface:    #ffffff;
+    --bg:         #f5f4f0;
+    --radius-sm:  8px;
+    --radius-md:  12px;
+    --radius-lg:  16px;
+    --shadow-sm:  0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md:  0 4px 12px rgba(0,0,0,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --green:      #2ec48e;
+      --green-dark: #5DCAA5;
+      --green-pale: #0a2e20;
+      --green-mid:  #1D9E75;
+      --text:       #f0efe8;
+      --text-2:     #a8a8a0;
+      --text-3:     #686862;
+      --border:     rgba(255,255,255,0.10);
+      --border-2:   rgba(255,255,255,0.18);
+      --surface:    #1e1e1a;
+      --bg:         #141412;
+      --shadow-sm:  0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md:  0 4px 12px rgba(0,0,0,0.4);
+    }
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--surface);
+    border-bottom: 0.5px solid var(--border);
+    padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px;
+    backdrop-filter: blur(8px);
+  }
+  .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .logo-mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    background: var(--green); display: flex; align-items: center; justify-content: center;
+  }
+  .logo-mark i { color: #fff; font-size: 18px; }
+  .logo-name { font-size: 14px; font-weight: 600; color: var(--text); }
+  .logo-tagline { font-size: 11px; color: var(--text-3); }
+  .nav-right { display: flex; align-items: center; gap: 12px; }
+  .search-box {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--bg); border: 0.5px solid var(--border);
+    border-radius: var(--radius-sm); padding: 7px 12px;
+  }
+  .search-box i { color: var(--text-3); font-size: 15px; }
+  .search-box input {
+    border: none; background: transparent; outline: none;
+    font-size: 13px; color: var(--text); font-family: inherit; width: 180px;
+  }
+  .search-box input::placeholder { color: var(--text-3); }
+  .btn-contribute {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--green); color: #fff;
+    border: none; border-radius: var(--radius-sm); padding: 8px 14px;
+    font-size: 13px; font-weight: 500; font-family: inherit;
+    cursor: pointer; text-decoration: none; transition: background 0.15s;
+  }
+  .btn-contribute:hover { background: var(--green-dark); }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 64px 24px 48px;
+    max-width: 680px; margin: 0 auto; text-align: center;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 500; color: var(--green);
+    background: var(--green-pale); border-radius: 20px;
+    padding: 5px 12px; margin-bottom: 20px;
+    border: 0.5px solid var(--green-mid);
+  }
+  .hero h1 {
+    font-size: 36px; font-weight: 600; line-height: 1.2;
+    letter-spacing: -0.5px; margin-bottom: 14px;
+  }
+  .hero h1 em { font-style: normal; color: var(--green); }
+  .hero p { font-size: 16px; color: var(--text-2); max-width: 440px; margin: 0 auto 32px; }
+  .hero-stats {
+    display: flex; gap: 0; justify-content: center;
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-md); overflow: hidden;
+    background: var(--surface); box-shadow: var(--shadow-sm);
+    max-width: 360px; margin: 0 auto;
+  }
+  .stat-item {
+    flex: 1; padding: 16px 12px; text-align: center;
+    border-right: 0.5px solid var(--border);
+  }
+  .stat-item:last-child { border-right: none; }
+  .stat-num { font-size: 22px; font-weight: 600; color: var(--green); line-height: 1; }
+  .stat-label { font-size: 11px; color: var(--text-3); margin-top: 4px; }
+
+  /* ── Layout ── */
+  .container { max-width: 1060px; margin: 0 auto; padding: 0 24px 80px; }
+  .layout { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: start; }
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: flex; flex-wrap: wrap; gap: 8px; }
+    nav .nav-right { gap: 8px; }
+    .search-box input { width: 100px; }
+    .hero h1 { font-size: 26px; }
+  }
+
+  /* ── Sidebar / Topics ── */
+  .sidebar-title {
+    font-size: 11px; font-weight: 600; color: var(--text-3);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 0 0 10px;
+  }
+  .topic-btn {
+    display: flex; align-items: center; gap: 9px; width: 100%;
+    padding: 9px 12px; border-radius: var(--radius-sm);
+    border: none; background: transparent; cursor: pointer;
+    font-family: inherit; font-size: 14px; color: var(--text-2);
+    text-align: left; transition: all 0.12s;
+  }
+  .topic-btn i { font-size: 17px; color: var(--text-3); }
+  .topic-btn:hover { background: var(--surface); color: var(--text); }
+  .topic-btn:hover i { color: var(--green); }
+  .topic-btn.active { background: var(--green-pale); color: var(--green-dark); font-weight: 500; }
+  .topic-btn.active i { color: var(--green); }
+  .topic-count {
+    margin-left: auto; font-size: 11px;
+    background: var(--bg); color: var(--text-3);
+    border-radius: 10px; padding: 1px 7px;
+  }
+  .topic-btn.active .topic-count { background: rgba(29,158,117,0.15); color: var(--green); }
+
+  /* ── Main Content ── */
+  .toolbar {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 18px; flex-wrap: wrap; gap: 10px;
+  }
+  .toolbar-left { display: flex; align-items: center; gap: 10px; }
+  .result-label { font-size: 13px; color: var(--text-3); }
+  .result-label strong { color: var(--text); }
+  .filter-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filter-chip {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 12px; padding: 5px 11px;
+    border: 0.5px solid var(--border); border-radius: 20px;
+    background: var(--surface); color: var(--text-2);
+    cursor: pointer; font-family: inherit; transition: all 0.12s;
+  }
+  .filter-chip i { font-size: 14px; }
+  .filter-chip:hover { border-color: var(--border-2); color: var(--text); }
+  .filter-chip.active { background: var(--green); color: #fff; border-color: var(--green); }
+
+  /* ── Cards ── */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .card {
+    background: var(--surface); border: 0.5px solid var(--border);
+    border-radius: var(--radius-md); overflow: hidden;
+    display: flex; flex-direction: column;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    text-decoration: none; color: inherit;
+  }
+  .card:hover { border-color: var(--border-2); box-shadow: var(--shadow-md); }
+  .card-cover {
+    width: 100%; aspect-ratio: 16/9; object-fit: cover;
+    display: block; background: var(--bg);
+    border-bottom: 0.5px solid var(--border);
+  }
+  .card-body { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .jenis-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; font-weight: 500; padding: 3px 8px;
+    border-radius: 20px; white-space: nowrap;
+  }
+  .jenis-badge i { font-size: 13px; }
+  .badge-PDF       { background: #FAECE7; color: #993C1D; }
+  .badge-Art       { background: #E6F1FB; color: #185FA5; }
+  .badge-Video     { background: #FAEEDA; color: #854F0B; }
+  .badge-Storyblog { background: #EEEDFE; color: #534AB7; }
+  .badge-Riset     { background: #EAF3DE; color: #3B6D11; }
+  .badge-Podcast   { background: #f0f0ee; color: #5a5a56; }
+  .card-open { color: var(--green); font-size: 18px; opacity: 0.6; transition: opacity 0.12s; }
+  .card:hover .card-open { opacity: 1; }
+  .card-title { font-size: 14px; font-weight: 500; line-height: 1.45; flex: 1; }
+  .card-desc { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+  .card-meta { display: flex; align-items: center; gap: 6px; margin-top: auto; }
+  .meta-avatar {
+    width: 22px; height: 22px; border-radius: 50%; background: var(--green-pale);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 600; color: var(--green);
+    flex-shrink: 0;
+  }
+  .meta-name { font-size: 12px; color: var(--text-3); }
+  .meta-dot { font-size: 10px; color: var(--text-3); }
+  .meta-date { font-size: 12px; color: var(--text-3); }
+
+  /* ── Empty state ── */
+  .empty {
+    text-align: center; padding: 60px 20px; color: var(--text-3);
+    grid-column: 1 / -1;
+  }
+  .empty i { font-size: 40px; margin-bottom: 12px; display: block; }
+  .empty p { font-size: 14px; }
+
+  /* ── Banner ── */
+  .banner {
+    background: var(--green-pale); border: 0.5px solid var(--green-mid);
+    border-radius: var(--radius-md); padding: 20px 24px;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    margin-bottom: 28px;
+  }
+  .banner-body h3 { font-size: 15px; font-weight: 600; color: var(--green-dark); margin-bottom: 4px; }
+  .banner-body p { font-size: 13px; color: var(--green); }
+  @media (max-width: 540px) {
+    .banner { flex-direction: column; align-items: flex-start; }
+  }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center; padding: 32px 24px;
+    font-size: 12px; color: var(--text-3);
+    border-top: 0.5px solid var(--border);
+  }
+  footer a { color: var(--green); text-decoration: none; }
+
+  /* ── Utility ── */
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+</style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="logo-mark"><i class="ti ti-books" aria-hidden="true"></i></div>
+    <div>
+      <div class="logo-name" id="nav-name">Sapu Lidi</div>
+      <div class="logo-tagline">Rumah Baca Digital</div>
+    </div>
+  </a>
+  <div class="nav-right">
+    <div class="search-box">
+      <i class="ti ti-search" aria-hidden="true"></i>
+      <input type="search" id="search-input" placeholder="Cari materi..." autocomplete="off" />
+    </div>
+    <a class="btn-contribute" id="nav-contribute" href="#" target="_blank" rel="noopener">
+      <i class="ti ti-plus" aria-hidden="true"></i> Kontribusi
+    </a>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="hero">
+  <div class="hero-eyebrow"><i class="ti ti-leaf" aria-hidden="true"></i> Rumah Baca Sapu Lidi</div>
+  <h1>Dari kita, <em>untuk kita.</em></h1>
+  <p id="hero-desc">Perpustakaan digital bersama — tempat belajar, berbagi, dan berkarya. Seperti sapu lidi, lebih kuat bersama.</p>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num" id="stat-materi">0</div>
+      <div class="stat-label">Materi</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-kontributor">0</div>
+      <div class="stat-label">Kontributor</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-topik">0</div>
+      <div class="stat-label">Topik</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main Layout ── -->
+<div class="container">
+
+  <!-- Contribute Banner -->
+  <div class="banner">
+    <div class="banner-body">
+      <h3>Punya materi? Bagikan ke Rumah Baca Sapu Lidi</h3>
+      <p>PDF, slide, artikel, catatan — semua kontribusi berharga. Tidak ada target, tidak ada tekanan.</p>
+    </div>
+    <a class="btn-contribute" id="banner-contribute" href="#" target="_blank" rel="noopener">
+      <i class="ti ti-upload" aria-hidden="true"></i> Kontribusi materi
+    </a>
+  </div>
+
+  <div class="layout">
+
+    <!-- ── Sidebar ── -->
+    <aside>
+      <p class="sidebar-title">Topik</p>
+      <div id="topic-list" role="list"></div>
+    </aside>
+
+    <!-- ── Content ── -->
+    <main>
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <span class="result-label"><strong id="result-count">0</strong> materi</span>
+        </div>
+        <div class="filter-row" id="filter-row" role="group" aria-label="Filter jenis materi"></div>
+      </div>
+      <div class="card-grid" id="card-grid" role="list"></div>
+    </main>
+
+  </div>
+</div>
+
+
+<!-- ── Peta Button ── -->
+<div style="text-align:center; padding: 0 24px 48px;">
+  <a href="peta.html" style="display:inline-flex; align-items:center; gap:8px; background:#1a1a18; color:white; padding:12px 24px; border-radius:12px; font-weight:500; text-decoration:none; font-family:inherit; font-size:14px; transition:.2s;">
+    <i class="ti ti-arrow-left" style="font-size:18px;"></i>
+    Kembali ke Peta Ekosistem
+  </a>
+</div>
+
+<!-- ── Footer ── -->
+<footer>
+  <p>Rumah Baca Sapu Lidi &mdash; Dari kita, untuk kita.</p>
+  <p style="margin-top:6px">Dibangun bersama dengan semangat berbagi.</p>
+</footer>
+
+<!-- Data file -->
+<script src="data.js"></script>
+
+<script>
+// ── State ──
+let activeTopik = "semua";
+let activeJenis = "Semua";
+let searchQuery = "";
+
+// ── Helpers ──
+const $ = id => document.getElementById(id);
+
+function initials(name) {
+  return name.split(" ").map(w => w[0]).join("").toUpperCase().slice(0, 2);
+}
+
+function formatDate(str) {
+  const d = new Date(str);
+  return d.toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" });
+}
+
+const JENIS_ICON = {
+  PDF:       "ti-file-type-pdf",
+  Art:       "ti-palette",
+  Video:     "ti-video",
+  Storyblog: "ti-writing",
+  Riset:     "ti-microscope",
+  Podcast:   "ti-microphone",
+};
+
+// ── Config ──
+document.title = RBSL_CONFIG.namaKomunitas;
+$("nav-name").textContent = RBSL_CONFIG.namaKomunitas.replace("Rumah Baca ", "");
+$("hero-desc").textContent = RBSL_CONFIG.deskripsi;
+$("nav-contribute").href = RBSL_CONFIG.linkKontribusi;
+$("banner-contribute").href = RBSL_CONFIG.linkKontribusi;
+
+// ── Stats ──
+const kontributorUnik = [...new Set(MATERI.map(m => m.kontributor))];
+const topikAktif = [...new Set(MATERI.map(m => m.topik))];
+$("stat-materi").textContent = MATERI.length;
+$("stat-kontributor").textContent = kontributorUnik.length;
+$("stat-topik").textContent = topikAktif.length;
+
+// ── Build Topics ──
+function buildTopics() {
+  const list = $("topic-list");
+  list.innerHTML = "";
+
+  TOPIK.forEach(t => {
+    const count = t.id === "semua"
+      ? MATERI.length
+      : MATERI.filter(m => m.topik === t.id).length;
+
+    if (t.id !== "semua" && count === 0) return; // hide empty topics
+
+    const btn = document.createElement("button");
+    btn.className = "topic-btn" + (activeTopik === t.id ? " active" : "");
+    btn.setAttribute("role", "listitem");
+    btn.innerHTML = `<i class="ti ${t.icon}" aria-hidden="true"></i>${t.label}<span class="topic-count">${count}</span>`;
+    btn.addEventListener("click", () => {
+      activeTopik = t.id;
+      buildTopics();
+      buildFilters();
+      render();
+    });
+    list.appendChild(btn);
+  });
+}
+
+// ── Build Filters ──
+function buildFilters() {
+  const relevantMateri = activeTopik === "semua"
+    ? MATERI
+    : MATERI.filter(m => m.topik === activeTopik);
+  const jenisList = ["Semua", ...new Set(relevantMateri.map(m => m.jenis))];
+
+  const row = $("filter-row");
+  row.innerHTML = "";
+
+  jenisList.forEach(j => {
+    const icon = j === "Semua" ? "ti-layout-grid" : (JENIS_ICON[j] || "ti-file");
+    const btn = document.createElement("button");
+    btn.className = "filter-chip" + (activeJenis === j ? " active" : "");
+    btn.innerHTML = `<i class="ti ${icon}" aria-hidden="true"></i>${j}`;
+    btn.addEventListener("click", () => {
+      activeJenis = j;
+      buildFilters();
+      render();
+    });
+    row.appendChild(btn);
+  });
+}
+
+// ── Render Cards ──
+function render() {
+  let filtered = [...MATERI].sort((a, b) => new Date(b.tanggal) - new Date(a.tanggal));
+
+  if (activeTopik !== "semua") filtered = filtered.filter(m => m.topik === activeTopik);
+  if (activeJenis !== "Semua")  filtered = filtered.filter(m => m.jenis === activeJenis);
+
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(m =>
+      m.judul.toLowerCase().includes(q) ||
+      (m.deskripsi || "").toLowerCase().includes(q) ||
+      m.kontributor.toLowerCase().includes(q)
+    );
+  }
+
+  $("result-count").textContent = filtered.length;
+  const grid = $("card-grid");
+  grid.innerHTML = "";
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div class="empty">
+        <i class="ti ti-books" aria-hidden="true"></i>
+        <p>Belum ada materi di sini.<br>Jadilah yang pertama berkontribusi!</p>
+      </div>`;
+    return;
+  }
+
+  filtered.forEach(m => {
+    const icon = JENIS_ICON[m.jenis] || "ti-file";
+    const card = document.createElement("a");
+    card.className = "card";
+    card.href = m.link;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+    card.setAttribute("role", "listitem");
+    card.innerHTML = `
+      ${m.thumbnail ? `<img class="card-cover" src="${m.thumbnail}" alt="Cover ${m.judul}" loading="lazy" onerror="this.style.display='none'" />` : ""}
+      <div class="card-body">
+        <div class="card-top">
+          <span class="jenis-badge badge-${m.jenis}">
+            <i class="ti ${icon}" aria-hidden="true"></i>${m.jenis}
+          </span>
+          <i class="ti ti-external-link card-open" aria-hidden="true"></i>
+        </div>
+        <div class="card-title">${m.judul}</div>
+        ${m.deskripsi ? `<div class="card-desc">${m.deskripsi}</div>` : ""}
+        <div class="card-meta">
+          <div class="meta-avatar">${initials(m.kontributor)}</div>
+          <span class="meta-name">${m.kontributor}</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-date">${formatDate(m.tanggal)}</span>
+        </div>
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
+// ── Search ──
+$("search-input").addEventListener("input", e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+// ── Init ──
+buildTopics();
+buildFilters();
+render();
+</script>
+</body>
+</html>

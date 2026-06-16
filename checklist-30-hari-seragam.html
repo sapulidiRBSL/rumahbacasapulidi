@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Checklist Operasional 30 Hari — Rumah Baca Sapu Lidi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+:root{--bg:#f9f7f4;--paper:#fffefb;--ink:#0f172a;--muted:#64748b;--border:#e5e7eb;--green:#10b981;--green-soft:#d1fae5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+.container{max-width:1120px;margin:0 auto;padding:32px 20px 64px}
+.card{background:var(--paper);border:1px solid var(--border);border-radius:28px;box-shadow:0 20px 40px -20px rgba(15,23,42,.08),0 4px 12px rgba(15,23,42,.04);padding:36px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:28px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:var(--green-soft);color:var(--green);font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px;margin-bottom:14px}
+.badge i{font-size:16px}h1{margin:0 0 6px;font-size:32px;font-weight:700;letter-spacing:-.02em}
+.subtitle{margin:0;color:var(--muted);font-size:15px}
+.actions{display:flex;gap:10px;flex-shrink:0}
+.btn{appearance:none;border:1px solid transparent;border-radius:12px;padding:10px 16px;font-size:14px;font-weight:500;display:inline-flex;align-items:center;gap:7px;cursor:pointer;transition:.18s;white-space:nowrap}
+.btn i{font-size:18px}.btn-outline{background:#fff;border-color:var(--border);color:var(--ink)}.btn-outline:hover{background:#f8fafc}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:#1e293b;transform:translateY(-1px)}
+.progress-wrap{margin:24px 0 36px;padding:18px 20px;background:#fcfcfa;border:1px solid var(--border);border-radius:18px}
+.progress-head{display:flex;justify-content:space-between;margin-bottom:10px;font-size:13.5px}
+.progress-head span:first-child{font-weight:600}.progress-head span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+.progress-bar{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden}
+.progress-fill{height:100%;width:0%;background:var(--green);border-radius:999px;transition:width .4s cubic-bezier(.22,1,.36,1)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:40px 48px}
+.week-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.week-num{width:28px;height:28px;border-radius:50%;background:var(--green-soft);color:#047857;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+.week h2{margin:0;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#1f2937}
+.checklist{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+.checklist li{border-radius:10px;transition:background .15s}.checklist li:hover{background:#f0fdf4}
+.checklist label{display:flex;gap:12px;padding:10px 8px;cursor:pointer;align-items:flex-start}
+.checklist input{appearance:none;-webkit-appearance:none;width:20px;height:20px;border:2px solid #cbd5e1;border-radius:6px;background:#fff;position:relative;flex-shrink:0;margin-top:2px;cursor:pointer;transition:.18s}
+.checklist input:hover{border-color:var(--green)}.checklist input:checked{background:var(--green);border-color:var(--green)}
+.checklist input:checked::after{content:'';position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.checklist span{font-size:14.5px;color:#334155;line-height:1.55}.checklist li.checked span{text-decoration:line-through;color:#94a3b8}
+.note{margin-top:44px;padding:16px 20px;border-radius:16px;background:linear-gradient(to bottom,#d1fae5,rgba(209,250,229,.1));border:1px solid #a7f3d0;color:#065f46;font-size:14px;display:flex;gap:10px}
+.note i{font-size:20px;margin-top:1px}.note strong{font-weight:600}
+.footer{display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}
+@media(max-width:900px){.grid{grid-template-columns:1fr;gap:36px}}@media(max-width:640px){.container{padding:20px 14px 48px}.card{padding:24px;border-radius:22px}header{flex-direction:column}h1{font-size:26px}.actions{width:100%}.btn{flex:1;justify-content:center}}
+@media print{body{background:#fff}.container{padding:0}.card{box-shadow:none;border:none;padding:0}.no-print{display:none!important}}
+</style>
+</head>
+<body>
+<div class="container"><div class="card">
+<header><div><div class="badge"><i class="ti ti-broom"></i> Rumah Baca Sapu Lidi</div>
+<h1>Checklist Operasional 30 Hari Pertama</h1>
+<p class="subtitle">Bangun fondasi yang ringan, konsisten, dan kolektif.</p></div>
+<div class="actions no-print"><button id="resetBtn" class="btn btn-outline"><i class="ti ti-restore"></i>Reset</button><button id="printBtn" class="btn btn-dark"><i class="ti ti-printer"></i>Cetak</button></div></header>
+<div class="progress-wrap"><div class="progress-head"><span>Progres 30 Hari</span><span id="progressText">0/28 selesai (0%)</span></div><div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div></div>
+<div class="grid">
+<section class="week"><div class="week-head"><div class="week-num">1</div><h2>Minggu 1 (Hari 1-7) — Rekrut Inisiator</h2></div><ul class="checklist">
+<li><label><input type="checkbox" data-id="w1-1"><span>Tentukan kriteria inisiator: suka belajar, mau berbagi, paham nilai sukarela</span></label></li>
+<li><label><input type="checkbox" data-id="w1-2"><span>List 10-15 calon, hubungi personal (DM/WA) dengan pitch 3 kalimat</span></label></li>
+<li><label><input type="checkbox" data-id="w1-3"><span>Kumpulkan 5-7 orang yang commit</span></label></li>
+<li><label><input type="checkbox" data-id="w1-4"><span>Jadwalkan kickoff 90 menit (Zoom/Telegram)</span></label></li>
+<li><label><input type="checkbox" data-id="w1-5"><span>Kickoff: ceritakan visi, metafora sapu lidi, sepakati "tidak ada bos"</span></label></li>
+<li><label><input type="checkbox" data-id="w1-6"><span>Catat notulen dan simpan di folder /00-inisiator</span></label></li>
+</ul></section>
+<section class="week"><div class="week-head"><div class="week-num">2</div><h2>Minggu 2 (Hari 8-14) — Set House Rules</h2></div><ul class="checklist">
+<li><label><input type="checkbox" data-id="w2-1"><span>Tulis 5 nilai dasar di README.md (1 paragraf per nilai)</span></label></li>
+<li><label><input type="checkbox" data-id="w2-2"><span>Definisikan peran Gardener (rotasi 2 bulan, tugas merapikan tag)</span></label></li>
+<li><label><input type="checkbox" data-id="w2-3"><span>Tetapkan lisensi default: CC BY-SA 4.0</span></label></li>
+<li><label><input type="checkbox" data-id="w2-4"><span>Buat struktur folder Digital Library: /bitcoin /ekonomi /critical-thinking /templates</span></label></li>
+<li><label><input type="checkbox" data-id="w2-5"><span>Buat template kontribusi: Judul, Ringkasan 3 baris, Tag, Lisensi</span></label></li>
+<li><label><input type="checkbox" data-id="w2-6"><span>Sepakati "komitmen mikro": 1 lidi/bulan</span></label></li>
+<li><label><input type="checkbox" data-id="w2-7"><span>Dokumentasikan di /house-rules</span></label></li>
+</ul></section>
+<section class="week"><div class="week-head"><div class="week-num">3</div><h2>Minggu 3 (Hari 15-21) — Bangun Library Minimum</h2></div><ul class="checklist">
+<li><label><input type="checkbox" data-id="w3-1"><span>Pilih platform: GitHub (publik) + Google Drive (draft) atau Notion</span></label></li>
+<li><label><input type="checkbox" data-id="w3-2"><span>Buat sistem tag 3 lapis: Topik | Format | Tingkat</span></label></li>
+<li><label><input type="checkbox" data-id="w3-3"><span>Kumpulkan 15-20 dokumen awal dari masing-masing inisiator (PDF/slide/catatan)</span></label></li>
+<li><label><input type="checkbox" data-id="w3-4"><span>Beri nama file konsisten: [Tahun]-[Topik]-Judul-Penulis.pdf</span></label></li>
+<li><label><input type="checkbox" data-id="w3-5"><span>Upload dan tag semua dokumen</span></label></li>
+<li><label><input type="checkbox" data-id="w3-6"><span>Buat halaman README dengan cara mencari dan cara kontribusi</span></label></li>
+<li><label><input type="checkbox" data-id="w3-7"><span>Uji akses dengan 1 orang luar</span></label></li>
+</ul></section>
+<section class="week"><div class="week-head"><div class="week-num">4</div><h2>Minggu 4 (Hari 22-30) — Soft Launch & Unggahan Pertama</h2></div><ul class="checklist">
+<li><label><input type="checkbox" data-id="w4-1"><span>Tentukan ritual: "Senin Bedah Lidi" jam 20.00 WIB, 90 menit</span></label></li>
+<li><label><input type="checkbox" data-id="w4-2"><span>Buat grup Cozy Lounge (Telegram/Discord) dengan 3 channel: #tanya #bedah #ide</span></label></li>
+<li><label><input type="checkbox" data-id="w4-3"><span>Undang 10-15 teman kurasi untuk soft launch</span></label></li>
+<li><label><input type="checkbox" data-id="w4-4"><span>Jalankan Bedah Lidi #1: 1 orang presentasi draft 10 menit</span></label></li>
+<li><label><input type="checkbox" data-id="w4-5"><span>Dorong 3 unggahan pertama lewat Creator Corner (Ide→Riset→Draft→Review)</span></label></li>
+<li><label><input type="checkbox" data-id="w4-6"><span>Minta feedback: apa yang membingungkan?</span></label></li>
+<li><label><input type="checkbox" data-id="w4-7"><span>Catat pelajaran dan update House Rules v0.2</span></label></li>
+<li><label><input type="checkbox" data-id="w4-8"><span>Rayakan: posting publik "Sapu Lidi sudah buka" dengan link library</span></label></li>
+</ul></section>
+</div>
+<div class="note"><i class="ti ti-bulb"></i><div><strong>Kunci sukses:</strong> selesaikan 80%, jangan tunggu sempurna. Tali pengikat &gt; koleksi besar.</div></div>
+
+<div style="text-align:center; margin-top:36px;" class="no-print">
+  <a href="peta.html" style="display:inline-flex; align-items:center; gap:8px; background:var(--ink); color:white; padding:12px 24px; border-radius:12px; font-weight:500; text-decoration:none; transition:.2s;">
+    <i class="ti ti-arrow-left" style="font-size:18px;"></i>
+    Kembali ke Peta Ekosistem
+  </a>
+</div>
+
+<div class="footer"><div>Dari Kita, Untuk Kita.</div><div class="no-print">Disimpan otomatis di perangkat Anda</div></div>
+</div></div>
+<script>
+const KEY='sapuLidi-30hari-v2';const cbs=document.querySelectorAll('.checklist input');const txt=document.getElementById('progressText');const fill=document.getElementById('progressFill');
+function load(){try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');cbs.forEach(cb=>{if(s[cb.dataset.id]){cb.checked=true;cb.closest('li').classList.add('checked')}})}catch{};upd()}
+function save(){const o={};cbs.forEach(cb=>o[cb.dataset.id]=cb.checked);localStorage.setItem(KEY,JSON.stringify(o))}
+function upd(){const t=cbs.length,d=[...cbs].filter(c=>c.checked).length,p=Math.round(d/t*100);txt.textContent=`${d}/${t} selesai (${p}%)`;fill.style.width=p+'%'}
+cbs.forEach(cb=>cb.addEventListener('change',e=>{e.target.closest('li').classList.toggle('checked',e.target.checked);save();upd()}));
+document.getElementById('resetBtn').onclick=()=>{if(confirm('Reset semua checklist?')){localStorage.removeItem(KEY);cbs.forEach(cb=>{cb.checked=false;cb.closest('li').classList.remove('checked')});upd()}};
+document.getElementById('printBtn').onclick=()=>window.print();load();
+</script>
+</body></html>
