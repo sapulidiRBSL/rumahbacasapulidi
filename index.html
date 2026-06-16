@@ -365,6 +365,22 @@ let activeTopik = "semua";
 let activeJenis = "Semua";
 let searchQuery = "";
 
+// ── URL Params ──
+function readParams() {
+  const p = new URLSearchParams(window.location.search);
+  if (p.get("topik")) activeTopik = p.get("topik");
+  if (p.get("jenis")) activeJenis = p.get("jenis");
+}
+
+function updateURL() {
+  const p = new URLSearchParams();
+  if (activeTopik !== "semua") p.set("topik", activeTopik);
+  if (activeJenis !== "Semua") p.set("jenis", activeJenis);
+  const qs = p.toString();
+  const newURL = window.location.pathname + (qs ? "?" + qs : "");
+  window.history.replaceState(null, "", newURL);
+}
+
 // ── Helpers ──
 const $ = id => document.getElementById(id);
 
@@ -419,6 +435,8 @@ function buildTopics() {
     btn.innerHTML = `<i class="ti ${t.icon}" aria-hidden="true"></i>${t.label}<span class="topic-count">${count}</span>`;
     btn.addEventListener("click", () => {
       activeTopik = t.id;
+      activeJenis = "Semua"; // reset jenis saat ganti topik
+      updateURL();
       buildTopics();
       buildFilters();
       render();
@@ -444,6 +462,7 @@ function buildFilters() {
     btn.innerHTML = `<i class="ti ${icon}" aria-hidden="true"></i>${j}`;
     btn.addEventListener("click", () => {
       activeJenis = j;
+      updateURL();
       buildFilters();
       render();
     });
@@ -517,6 +536,7 @@ $("search-input").addEventListener("input", e => {
 });
 
 // ── Init ──
+readParams(); // baca URL params dulu sebelum render
 buildTopics();
 buildFilters();
 render();
