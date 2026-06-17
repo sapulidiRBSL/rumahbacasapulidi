@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kontributor — Rumah Baca Sapu Lidi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --green:      #1D9E75;
+    --green-dark: #0F6E56;
+    --green-pale: #E1F5EE;
+    --green-mid:  #5DCAA5;
+    --text:       #1a1a18;
+    --text-2:     #5a5a56;
+    --text-3:     #9a9a94;
+    --border:     rgba(0,0,0,0.10);
+    --border-2:   rgba(0,0,0,0.18);
+    --surface:    #ffffff;
+    --bg:         #f5f4f0;
+    --radius-sm:  8px;
+    --radius-md:  12px;
+    --radius-lg:  16px;
+    --shadow-sm:  0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md:  0 4px 12px rgba(0,0,0,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --green:      #2ec48e;
+      --green-dark: #5DCAA5;
+      --green-pale: #0a2e20;
+      --green-mid:  #1D9E75;
+      --text:       #f0efe8;
+      --text-2:     #a8a8a0;
+      --text-3:     #686862;
+      --border:     rgba(255,255,255,0.10);
+      --border-2:   rgba(255,255,255,0.18);
+      --surface:    #1e1e1a;
+      --bg:         #141412;
+      --shadow-sm:  0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md:  0 4px 12px rgba(0,0,0,0.4);
+    }
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--surface);
+    border-bottom: 0.5px solid var(--border);
+    padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px;
+    backdrop-filter: blur(8px);
+  }
+  .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .logo-mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    background: var(--green); display: flex; align-items: center; justify-content: center;
+  }
+  .logo-mark i { color: #fff; font-size: 18px; }
+  .logo-name { font-size: 14px; font-weight: 600; color: var(--text); }
+  .logo-tagline { font-size: 11px; color: var(--text-3); }
+  .nav-back {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--green); color: #fff;
+    border: none; border-radius: var(--radius-sm); padding: 8px 14px;
+    font-size: 13px; font-weight: 500;
+    font-family: inherit; text-decoration: none; transition: background 0.15s;
+  }
+  .nav-back:hover { background: var(--green-dark); }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 48px 24px 36px;
+    max-width: 680px; margin: 0 auto; text-align: center;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 500; color: var(--green);
+    background: var(--green-pale); border-radius: 20px;
+    padding: 5px 12px; margin-bottom: 20px;
+    border: 0.5px solid var(--green-mid);
+  }
+  .hero h1 { font-size: 30px; font-weight: 600; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 10px; }
+  .hero h1 em { font-style: normal; color: var(--green); }
+  .hero p { font-size: 15px; color: var(--text-2); }
+
+  /* ── Container ── */
+  .container { max-width: 900px; margin: 0 auto; padding: 0 24px 80px; }
+
+  /* ── Contributor Card ── */
+  .contributor-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    margin-bottom: 28px;
+    box-shadow: var(--shadow-sm);
+  }
+  .contributor-header {
+    display: flex; align-items: center; gap: 18px;
+    margin-bottom: 20px;
+  }
+  .avatar {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: var(--green-pale);
+    border: 2px solid var(--green-mid);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; overflow: hidden;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .avatar-initial {
+    font-size: 22px; font-weight: 600; color: var(--green);
+  }
+  .contributor-info { flex: 1; }
+  .contributor-name { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .contributor-bio {
+    font-size: 13px; color: var(--text-2); line-height: 1.5;
+    font-style: italic;
+  }
+  .contributor-bio.placeholder { color: var(--text-3); }
+
+  /* ── Works ── */
+  .works-title {
+    font-size: 11px; font-weight: 600; color: var(--text-3);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 12px;
+  }
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .work-card {
+    background: var(--bg);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    display: flex; flex-direction: column;
+  }
+  .work-card:hover { border-color: var(--border-2); box-shadow: var(--shadow-md); }
+  .work-thumb {
+    width: 100%; aspect-ratio: 16/9; object-fit: cover;
+    display: block; background: var(--border);
+  }
+  .work-thumb-placeholder {
+    width: 100%; aspect-ratio: 16/9;
+    background: var(--green-pale);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .work-thumb-placeholder i { font-size: 28px; color: var(--green-mid); }
+  .work-info { padding: 10px 12px; flex: 1; }
+  .work-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10px; font-weight: 500;
+    background: var(--green-pale); color: var(--green-dark);
+    border-radius: 4px; padding: 2px 7px; margin-bottom: 6px;
+  }
+  .work-badge i { font-size: 11px; }
+  .work-title { font-size: 12px; font-weight: 500; line-height: 1.4; color: var(--text); }
+
+  /* ── No works ── */
+  .no-works {
+    font-size: 13px; color: var(--text-3);
+    font-style: italic; padding: 12px 0;
+  }
+
+  /* ── Show more ── */
+  .works-hidden { display: none; }
+  .btn-show-more {
+    display: flex; align-items: center; gap: 6px;
+    margin-top: 12px;
+    font-size: 12px; font-weight: 500; color: var(--green);
+    background: var(--green-pale); border: 0.5px solid var(--green-mid);
+    border-radius: var(--radius-sm); padding: 7px 14px;
+    cursor: pointer; font-family: inherit; transition: all 0.12s;
+  }
+  .btn-show-more:hover { background: var(--green-mid); color: #fff; }
+
+  @media (max-width: 600px) {
+    .contributor-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .works-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    .hero h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="logo-mark"><i class="ti ti-books"></i></div>
+    <div>
+      <div class="logo-name">Sapu Lidi</div>
+      <div class="logo-tagline">Rumah Baca Digital</div>
+    </div>
+  </a>
+  <a class="nav-back" href="index.html">
+    <i class="ti ti-arrow-left"></i> Kembali ke Rumah Baca
+  </a>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="hero">
+  <div class="hero-eyebrow"><i class="ti ti-users"></i> Kontributor</div>
+  <h1>Mereka yang <em>berbagi.</em></h1>
+  <p>Dari kita, untuk kita — terima kasih atas setiap materi yang dibagikan.</p>
+</div>
+
+<!-- ── Content ── -->
+<div class="container" id="contributors-container">
+  <!-- Diisi oleh JavaScript -->
+</div>
+
+<script src="data.js"></script>
+<script>
+// ── Jenis icon map ──
+const JENIS_ICON = {
+  "PDF":        "ti-file-type-pdf",
+  "Art":        "ti-palette",
+  "Video":      "ti-brand-youtube",
+  "Storyblog":  "ti-news",
+  "Podcast":    "ti-microphone",
+  "Infographic":"ti-chart-bar",
+  "Riset":      "ti-microscope",
+};
+
+// ── Data kontributor (bio & foto bisa diisi nanti) ──
+const CONTRIBUTOR_DATA = {
+  "Bitcoin SatoshiCat": {
+    bio: "...",
+    foto: "", // isi dengan link foto atau nama file jpg
+  },
+  "achmad.ardian.syah": {
+    bio: "...",
+    foto: "",
+  },
+  "om.sats": {
+    bio: "...",
+    foto: "",
+  },
+  "annasahmads": {
+    bio: "...",
+    foto: "",
+  },
+  "mithos_btc": {
+    bio: "...",
+    foto: "",
+  },
+  "bitcoinsports.id": {
+    bio: "...",
+    foto: "",
+  },
+  "Podcast Kurniawan": {
+    bio: "...",
+    foto: "",
+  },
+  "maxima freiman": {
+    bio: "...",
+    foto: "",
+  },
+  "AH Prayo": {
+    bio: "...",
+    foto: "",
+  },
+};
+
+// ── Build page ──
+function getInitial(name) {
+  return name.trim().charAt(0).toUpperCase();
+}
+
+function buildContributors() {
+  const container = document.getElementById("contributors-container");
+
+  // Kumpulkan semua kontributor unik dari MATERI
+  const allNames = new Set();
+  MATERI.forEach(m => {
+    m.kontributor.split(",").map(k => k.trim()).forEach(k => allNames.add(k));
+  });
+
+  // Gabungkan dengan CONTRIBUTOR_DATA (agar yang belum punya karya pun muncul)
+  Object.keys(CONTRIBUTOR_DATA).forEach(k => allNames.add(k));
+
+  allNames.forEach(name => {
+    const info = CONTRIBUTOR_DATA[name] || { bio: "...", foto: "" };
+
+    // Karya milik kontributor ini
+    const works = MATERI.filter(m =>
+      m.kontributor.split(",").map(k => k.trim()).includes(name)
+    );
+
+    // Avatar
+    const avatarHTML = info.foto
+      ? `<img src="${info.foto}" alt="${name}" />`
+      : `<span class="avatar-initial">${getInitial(name)}</span>`;
+
+    // Bio
+    const bioClass = (info.bio === "...") ? "contributor-bio placeholder" : "contributor-bio";
+    const bioText  = (info.bio === "...") ? "Bio belum tersedia." : info.bio;
+
+    // Works grid
+    let worksHTML = "";
+    if (works.length === 0) {
+      worksHTML = `<p class="no-works">Belum ada karya yang tercatat.</p>`;
+    } else {
+      const MAX = 3;
+      const cardHTML = (w) => {
+        const icon = JENIS_ICON[w.jenis] || "ti-file";
+        const thumb = w.thumbnail
+          ? `<img class="work-thumb" src="${w.thumbnail}" alt="${w.judul}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="work-thumb-placeholder" style="display:none"><i class="ti ${icon}"></i></div>`
+          : `<div class="work-thumb-placeholder"><i class="ti ${icon}"></i></div>`;
+        return `<a class="work-card" href="${w.link}" target="_blank" rel="noopener">
+            ${thumb}
+            <div class="work-info">
+              <div class="work-badge"><i class="ti ${icon}"></i>${w.jenis}</div>
+              <div class="work-title">${w.judul}</div>
+            </div>
+          </a>`;
+      };
+
+      const visible = works.slice(0, MAX).map(cardHTML).join("");
+      const hidden  = works.slice(MAX).map(cardHTML).join("");
+      const uid     = name.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-]/g, "");
+
+      worksHTML = `<div class="works-grid">${visible}</div>`;
+      if (works.length > MAX) {
+        worksHTML += `
+          <div class="works-grid works-hidden" id="more-${uid}">${hidden}</div>
+          <button class="btn-show-more" onclick="toggleMore('${uid}', ${works.length - MAX}, this)">
+            <i class="ti ti-chevron-down"></i> Lihat ${works.length - MAX} karya lainnya
+          </button>`;
+      }
+    }
+
+    container.innerHTML += `
+      <div class="contributor-card">
+        <div class="contributor-header">
+          <div class="avatar">${avatarHTML}</div>
+          <div class="contributor-info">
+            <div class="contributor-name">${name}</div>
+            <div class="${bioClass}">${bioText}</div>
+          </div>
+        </div>
+        <div class="works-title"><i class="ti ti-stack-2"></i> Karya (${works.length})</div>
+        ${worksHTML}
+      </div>`;
+  });
+}
+
+function toggleMore(uid, count, btn) {
+  const el = document.getElementById("more-" + uid);
+  const isHidden = el.classList.contains("works-hidden");
+  el.classList.toggle("works-hidden");
+  btn.innerHTML = isHidden
+    ? `<i class="ti ti-chevron-up"></i> Sembunyikan`
+    : `<i class="ti ti-chevron-down"></i> Lihat ${count} karya lainnya`;
+}
+
+buildContributors();
+</script>
+</body>
+</html>

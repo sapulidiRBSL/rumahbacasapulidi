@@ -9,7 +9,7 @@ const RBSL_CONFIG = {
   tagline: "Dari kita, untuk kita.",
   deskripsi: "Perpustakaan digital bersama — tempat belajar, berbagi, dan berkarya. Seperti sapu lidi, lebih kuat bersama.",
   // Link formulir kontribusi (ganti dengan link Tally/Google Form kamu)
-  linkKontribusi: "https://tally.so/r/GANTI_LINK_INI",
+  linkKontribusi: "https://t.me/+p4JAxJAXuJ05OThl",
 };
 
 // ============================================================
@@ -17,9 +17,11 @@ const RBSL_CONFIG = {
 // ============================================================
 const TOPIK = [
   { id: "semua",    label: "Semua",         icon: "ti-layout-grid" },
-  { id: "bitcoin",  label: "Bitcoin",        icon: "ti-currency-bitcoin" },
-  { id: "ekonomi",  label: "Ekonomi",        icon: "ti-chart-line" },
-  { id: "filsafat", label: "Filsafat",       icon: "ti-brain" },
+  { id: "bitcoin",  label: "Bitcoin for Beginner", icon: "ti-currency-bitcoin" },
+  { id: "bitcoinmath", label: "Bitcoin & Math", icon: "ti-math-function" },
+  { id: "bitcoinphilosophy", label: "Bitcoin & Philosophy", icon: "ti-yin-yang" },
+  { id: "ekonomi",  label: "Economy",        icon: "ti-chart-line" },
+  { id: "filsafat", label: "Philosophy",       icon: "ti-brain" },
   { id: "ai",       label: "AI & Teknologi", icon: "ti-cpu" },
   { id: "sejarah",  label: "Sejarah",        icon: "ti-history" },
   { id: "buku",     label: "Buku",           icon: "ti-books" },
@@ -45,9 +47,9 @@ const TOPIK = [
 const MATERI = [
   {
     judul: "Don't Trust, Verify — Seni Membaca Kebenaran",
-    topik: "bitcoin",
+    topik: "bitcoinmath",
     jenis: "PDF",
-    kontributor: "Tim RBSL",
+    kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     // Ganti FILE_ID di bawah dengan ID file PDF dari Google Drive
     // Contoh link: https://drive.google.com/file/d/1aBcDeFgH.../view
@@ -83,17 +85,17 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://www.youtube.com/watch?v=ZjNXA3kO3e0&t=80s",
-    thumbnail: "bitcoin_koin_terakhir.jpg",
+    thumbnail: "https://img.youtube.com/vi/ZjNXA3kO3e0/hqdefault.jpg",
     deskripsi: "Bitcoin setelah 21 juta koin habis ditambang — apa yang terjadi dengan miner dan masa depan BTC?",
   },
   {
     judul: "Jika Surga & Neraka Tak Pernah Ada — Yakin Lo Gak Nyari Keuntungan di Bitcoin?",
-    topik: "bitcoin",
+    topik: "bitcoinphilosophy",
     jenis: "Video",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://www.youtube.com/watch?v=DtUwTYlWBHg",
-    thumbnail: "https://img.youtube.com/vi/DtUwTYlWBHg/maxresdefault.jpg",
+    thumbnail: "https://img.youtube.com/vi/DtUwTYlWBHg/hqdefault.jpg",
     deskripsi: "Ngobrolin ilusi kebaikan, bitcoin, dan apa yang sebenernya kita cari. Deep talk alert!",
   },
   {
@@ -103,7 +105,7 @@ const MATERI = [
     kontributor: "om.sats, annasahmads, mithos_btc, bitcoinsports.id",
     tanggal: "2025-06-16",
     link: "https://www.youtube.com/watch?v=IxVFvHy-uk4",
-    thumbnail: "https://img.youtube.com/vi/IxVFvHy-uk4/maxresdefault.jpg",
+    thumbnail: "https://img.youtube.com/vi/IxVFvHy-uk4/hqdefault.jpg",
     deskripsi: "Diskusi circular economy bersama komunitas Bitcoin di Nusa Community Hub.",
   },
   {
@@ -118,7 +120,7 @@ const MATERI = [
   },
   {
     judul: "Berpikir Seperti Matematika",
-    topik: "bitcoin",
+    topik: "bitcoinmath",
     jenis: "Storyblog",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-05-15",
@@ -133,7 +135,7 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://drive.google.com/file/d/12OulA7av1--IWeC-qUMy03sTFVptvHe_/view?usp=sharing",
-    thumbnail: "satoshi_in_wonderland.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=12OulA7av1--IWeC-qUMy03sTFVptvHe_&sz=w400",
     deskripsi: "Gimana kalo pencipta Bitcoin ketemuan sama Kucing Cheshire? Deep talk paling mind-blowing abad ini.",
   },
   {
@@ -143,7 +145,7 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://drive.google.com/file/d/1lHwDtXU5iYl7UqISW7Sg--pwPNf_7FIp/view?usp=drive_link",
-    thumbnail: "architects_of_logic.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1lHwDtXU5iYl7UqISW7Sg--pwPNf_7FIp&sz=w400",
     deskripsi: "Gimana pemikiran filsuf dari balik jeruji besi WWI jadi pondasi absolut buat Programming & Bitcoin modern.",
   },
   {
@@ -175,6 +177,26 @@ const MATERI = [
     link: "bitcoin_public_map_privacy.jpg",
     thumbnail: "bitcoin_public_map_privacy.jpg",
     deskripsi: "Saldo Bitcoin itu peta publik, bukan buku tabungan — gimana jejak transaksi bisa dilacak, dan cara aktifin 'stealth mode' lewat CoinJoin, Lightning Network, sampai Coin Control.",
+  },
+  {
+    judul: "Ketika Bitcoin Bercerita — Comic Reader",
+    topik: "bitcoin",
+    jenis: "Storyblog",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-06-17",
+    link: "https://satoshicatstory.netlify.app/",
+    thumbnail: "ketika_bitcoin_bercerita.jpg",
+    deskripsi: "Komik strip Bitcoin — kisah Satoshicat dalam 11 halaman penuh warna yang bikin paham Bitcoin tanpa perlu baca whitepaper.",
+  },
+  {
+    judul: "Ep.1 - Celengan Pertamaku",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "achmad.ardian.syah",
+    tanggal: "2026-06-17",
+    link: "https://drive.google.com/file/d/14UVukXKprKyxb_fUsdmJ0tvNk9r4e55N/view?pli=1",
+    thumbnail: "https://drive.google.com/thumbnail?id=14UVukXKprKyxb_fUsdmJ0tvNk9r4e55N&sz=w400",
+    deskripsi: "Langkah pertama mengenal Bitcoin — dari mana mulainya, kenapa penting, dan bagaimana memulai perjalananmu sebagai pemula.",
   },
 
 ];

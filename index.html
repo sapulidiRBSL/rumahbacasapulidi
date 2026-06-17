@@ -94,6 +94,15 @@
     cursor: pointer; text-decoration: none; transition: background 0.15s;
   }
   .btn-contribute:hover { background: var(--green-dark); }
+  .btn-contributors {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--green); color: #fff;
+    border: none; border-radius: var(--radius-sm); padding: 8px 14px;
+    font-size: 13px; font-weight: 500;
+    font-family: inherit; text-decoration: none; transition: background 0.15s;
+  }
+  .btn-contributors:hover { background: var(--green-dark); }
+  .btn-contributors i { font-size: 15px; }
 
   /* ── Hero ── */
   .hero {
@@ -278,8 +287,8 @@
       <i class="ti ti-search" aria-hidden="true"></i>
       <input type="search" id="search-input" placeholder="Cari materi..." autocomplete="off" />
     </div>
-    <a class="btn-contribute" id="nav-contribute" href="#" target="_blank" rel="noopener">
-      <i class="ti ti-plus" aria-hidden="true"></i> Kontribusi
+    <a class="btn-contributors" href="contributors.html">
+      <i class="ti ti-users"></i> Kontributor
     </a>
   </div>
 </nav>
@@ -295,8 +304,10 @@
       <div class="stat-label">Materi</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num" id="stat-kontributor">0</div>
-      <div class="stat-label">Kontributor</div>
+      <a href="contributors.html" style="text-decoration:none;color:inherit;display:block;">
+        <div class="stat-num" id="stat-kontributor">0</div>
+        <div class="stat-label">Kontributor</div>
+      </a>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="stat-topik">0</div>
@@ -407,7 +418,6 @@ const JENIS_ICON = {
 document.title = RBSL_CONFIG.namaKomunitas;
 $("nav-name").textContent = RBSL_CONFIG.namaKomunitas.replace("Rumah Baca ", "");
 $("hero-desc").textContent = RBSL_CONFIG.deskripsi;
-$("nav-contribute").href = RBSL_CONFIG.linkKontribusi;
 $("banner-contribute").href = RBSL_CONFIG.linkKontribusi;
 
 // ── Stats ──
