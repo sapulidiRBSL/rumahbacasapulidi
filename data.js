@@ -259,5 +259,15 @@ const MATERI = [
     thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjRtu9swKmFgXHpyk3ooRe3wzq8ngCbgrcJzDjPxyxiKkj8SgSkBhZIkxNqr5HPCliFnk74HQrS2gNSMFnjSkq7Z3LtlP0Ohp7du9QzcTM40yABtZNsmyER99uW63iJ4zqVSPw8dgIbCVZdl1WG6HJjbtflwS0FSUl_6POYeyXB4CNM3yk_Hqa-44qNMk/s1312/k2sWc8g2Ssun28-CXuNr8A.webp",
     deskripsi: "Membongkar mitos-mitos seputar keuangan dan dua angka penting yang sering diabaikan, tapi sebenarnya krusial untuk perjalanan finansialmu.",
   },
+  {
+    judul: "Siapa sih yang Pertama Kali Ngadain Makan 3x Sehari?",
+    topik: "filsafat",
+    jenis: "Article",
+    kontributor: "jokoart.id",
+    tanggal: "2026-04-16",
+    link: "https://jokowarihwiguna.blogspot.com/2026/04/makan-3x-sehari-siapa-yang-ciptakan.html",
+    thumbnail: "joko_makan_3x_sehari_thumbnail.jpg",
+    deskripsi: "Hal yang dianggap biasa, dibedah sampai dalam — menelusuri asal-usul kebiasaan makan tiga kali sehari yang jarang dipertanyakan.",
+  },
 
 ];
