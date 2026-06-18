@@ -20,9 +20,10 @@ const TOPIK = [
   { id: "bitcoin",  label: "Bitcoin for Beginner", icon: "ti-currency-bitcoin" },
   { id: "bitcoinmath", label: "Bitcoin & Math", icon: "ti-math-function" },
   { id: "bitcoinphilosophy", label: "Bitcoin & Philosophy", icon: "ti-yin-yang" },
+  { id: "bitcointechnicals", label: "Bitcoin Technicals Made Simple", icon: "ti-settings-cog" },
   { id: "ekonomi",  label: "Economy",        icon: "ti-chart-line" },
   { id: "filsafat", label: "Philosophy",       icon: "ti-brain" },
-  { id: "ai",       label: "AI & Teknologi", icon: "ti-cpu" },
+  { id: "ai",       label: "Technology", icon: "ti-cpu" },
   { id: "sejarah",  label: "Sejarah",        icon: "ti-history" },
   { id: "buku",     label: "Buku",           icon: "ti-books" },
   { id: "psikologi",label: "Psikologi",      icon: "ti-heart" },
@@ -35,7 +36,7 @@ const TOPIK = [
 //  FORMAT:
 //  judul       : judul materi
 //  topik       : id topik dari daftar TOPIK di atas
-//  jenis       : "PDF" | "Art" | "Video" | "Storyblog" | "Riset" | "Podcast" | "Infographic"
+//  jenis       : "PDF" | "Art" | "Video" | "Blog" | "Article" | "Riset" | "Podcast" | "Infographic"
 //  kontributor : nama kontributor
 //  tanggal     : "YYYY-MM-DD"
 //  link        : link Google Drive → klik kanan file → Share → Copy link
@@ -111,7 +112,7 @@ const MATERI = [
   {
     judul: "Puzzle of Idea",
     topik: "filsafat",
-    jenis: "Storyblog",
+    jenis: "Blog",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://puzzlesofidea.netlify.app/",
@@ -121,7 +122,7 @@ const MATERI = [
   {
     judul: "Berpikir Seperti Matematika",
     topik: "bitcoinmath",
-    jenis: "Storyblog",
+    jenis: "Blog",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-05-15",
     link: "https://thinklikemath.netlify.app/",
@@ -140,7 +141,7 @@ const MATERI = [
   },
   {
     judul: "Ngetik Code atau Nulis Filsafat?",
-    topik: "filsafat",
+    topik: "bitcoinmath",
     jenis: "PDF",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
@@ -150,7 +151,7 @@ const MATERI = [
   },
   {
     judul: "Kripto: Harta Masa Depan atau Judi Modern?",
-    topik: "ekonomi",
+    topik: "ai",
     jenis: "Podcast",
     kontributor: "Podcast Kurniawan",
     tanggal: "2026-06-16",
@@ -181,7 +182,7 @@ const MATERI = [
   {
     judul: "Ketika Bitcoin Bercerita — Comic Reader",
     topik: "bitcoin",
-    jenis: "Storyblog",
+    jenis: "Blog",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2026-06-17",
     link: "https://satoshicatstory.netlify.app/",
@@ -197,6 +198,66 @@ const MATERI = [
     link: "https://drive.google.com/file/d/14UVukXKprKyxb_fUsdmJ0tvNk9r4e55N/view?pli=1",
     thumbnail: "https://drive.google.com/thumbnail?id=14UVukXKprKyxb_fUsdmJ0tvNk9r4e55N&sz=w400",
     deskripsi: "Langkah pertama mengenal Bitcoin — dari mana mulainya, kenapa penting, dan bagaimana memulai perjalananmu sebagai pemula.",
+  },
+  {
+    judul: "Belajar Bitcoin dari Nol dalam 10 Menit (Langsung Paham)",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "datul",
+    tanggal: "2026-06-18",
+    link: "https://www.youtube.com/watch?v=2tAN2gS5p9U",
+    thumbnail: "https://img.youtube.com/vi/2tAN2gS5p9U/hqdefault.jpg",
+    deskripsi: "Pengantar singkat Bitcoin buat pemula — paham dasar-dasarnya cuma dalam 10 menit.",
+  },
+  {
+    judul: "Dari Nol ke Bertahan: 4 Mitos & Rahasia Hidup yang Bikin Kamu Kuat Seperti Bitcoin",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "Bitcoin SatoshiCat, dhiemazalfa",
+    tanggal: "2026-06-18",
+    link: "https://www.youtube.com/watch?v=Oyz0gMewsUc",
+    thumbnail: "https://img.youtube.com/vi/Oyz0gMewsUc/hqdefault.jpg",
+    deskripsi: "Bongkar 4 mitos hidup yang bikin kita rapuh, dan gimana belajar dari ketahanan Bitcoin buat jadi lebih kuat.",
+  },
+  {
+    judul: "Episode 3 : Adu Kedaulatan Kripto dan CBDC",
+    topik: "ai",
+    jenis: "Podcast",
+    kontributor: "Podcast Kurniawan",
+    tanggal: "2026-06-04",
+    link: "https://open.spotify.com/episode/7hAzY9wqFhCRsab3v6Bs51",
+    thumbnail: "https://i.scdn.co/image/ab6765630000ba8aebfdce052e86427dc324e1bd",
+    deskripsi: "Kripto vs CBDC — benturan ideologi antara desentralisasi dan kedaulatan negara, siapa yang bakal menang kendali atas dompetmu?",
+  },
+  {
+    judul: "Surat Terbuka: Di Antara Ketakutan Menjadi Miskin dan Kehinaan Menjadi Serakah",
+    topik: "ekonomi",
+    jenis: "Article",
+    kontributor: "annasahmads",
+    tanggal: "2025-12-01",
+    link: "https://www.annasahmad.com/2025/12/surat-terbuka-di-antara-ketakutan.html",
+    thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAK39FrJmMqoB_3fG4JE5bTboskOhEO9oCrbzQZuQ9Tf23bYbQ2VdRZxG-hfD8Sncy0OYTUbwGXU0By-2ZSnHvnohoK4DsFFWBvY0_ehrVIX_b7MccxM6-MrdVwLw7L_gXlL_5R-mdtr0t9gd5BbMGldslw0bSlRzC0-d8mf3GY1mDy3UiWKeLNb1YCZw/w640-h430/7ef4d16d-260f-40f0-8dc7-2d0abc05f2a9.png",
+    deskripsi: "Renungan tentang ketakutan mati miskin versus kehinaan mati serakah — mendefinisikan ulang makna kekayaan menjelang 2026.",
+  },
+  {
+    judul: "Memahami Protokol Bitcoin Dengan Mudah Untuk Semua Orang",
+    topik: "bitcointechnicals",
+    jenis: "Blog",
+    kontributor: "maxima.freiman",
+    tanggal: "2026-06-18",
+    link: "https://bitprotocol.netlify.app/",
+    thumbnail: "bitprotocol_thumbnail.jpg",
+    deskripsi: "Pelajari bagaimana Bitcoin bekerja dari dasar hingga mekanisme terdalamnya, tanpa jargon rumit, tanpa hype crypto, dan tanpa harus jadi programmer.",
+  },
+  {
+    judul: "3 Mitos dan 2 Angka yang Perlu Kamu Cari",
+    topik: "ekonomi",
+    jenis: "Article",
+    kontributor: "annasahmads",
+    tanggal: "2025-02-01",
+    link: "https://www.annasahmad.com/2025/02/3-mitos-dan-2-angka-yang-perlu-kamu.html",
+    thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjRtu9swKmFgXHpyk3ooRe3wzq8ngCbgrcJzDjPxyxiKkj8SgSkBhZIkxNqr5HPCliFnk74HQrS2gNSMFnjSkq7Z3LtlP0Ohp7du9QzcTM40yABtZNsmyER99uW63iJ4zqVSPw8dgIbCVZdl1WG6HJjbtflwS0FSUl_6POYeyXB4CNM3yk_Hqa-44qNMk/s1312/k2sWc8g2Ssun28-CXuNr8A.webp",
+    deskripsi: "Membongkar mitos-mitos seputar keuangan dan dua angka penting yang sering diabaikan, tapi sebenarnya krusial untuk perjalanan finansialmu.",
   },
 
 ];
