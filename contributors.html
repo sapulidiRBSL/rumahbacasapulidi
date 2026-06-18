@@ -132,6 +132,13 @@
     font-style: italic;
   }
   .contributor-bio.placeholder { color: var(--text-3); }
+  .contributor-ig {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; color: var(--green); text-decoration: none;
+    margin-top: 4px; font-weight: 500;
+  }
+  .contributor-ig:hover { color: var(--green-dark); text-decoration: underline; }
+  .contributor-ig i { font-size: 14px; }
 
   /* ── Works ── */
   .works-title {
@@ -234,7 +241,8 @@ const JENIS_ICON = {
   "PDF":        "ti-file-type-pdf",
   "Art":        "ti-palette",
   "Video":      "ti-brand-youtube",
-  "Storyblog":  "ti-news",
+  "Blog":       "ti-news",
+  "Article":    "ti-article",
   "Podcast":    "ti-microphone",
   "Infographic":"ti-chart-bar",
   "Riset":      "ti-microscope",
@@ -245,38 +253,62 @@ const CONTRIBUTOR_DATA = {
   "Bitcoin SatoshiCat": {
     bio: "...",
     foto: "", // isi dengan link foto atau nama file jpg
+    ig: "https://www.instagram.com/bitcoin_satoshicat/",
   },
   "achmad.ardian.syah": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/achmad.ardian.syah/",
   },
   "om.sats": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/om.sats/",
   },
   "annasahmads": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/annasahmads/",
   },
   "mithos_btc": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/mithos_btc/",
   },
   "bitcoinsports.id": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/bitcoinsports.id/",
   },
   "Podcast Kurniawan": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/kurniawando4ng/",
   },
-  "maxima freiman": {
+  "maxima.freiman": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/maxima.freiman/",
   },
   "AH Prayo": {
     bio: "...",
     foto: "",
+    ig: "https://www.instagram.com/meaegos/",
+  },
+  "datul": {
+    bio: "...",
+    foto: "",
+    ig: "https://www.instagram.com/hidatulfikri/",
+  },
+  "dhiemazalfa": {
+    bio: "...",
+    foto: "",
+    ig: "https://www.instagram.com/dhiemazalfa/",
+  },
+  "jokoart.id": {
+    bio: "...",
+    foto: "",
+    ig: "https://www.instagram.com/jokoart.id/",
   },
 };
 
@@ -297,8 +329,13 @@ function buildContributors() {
   // Gabungkan dengan CONTRIBUTOR_DATA (agar yang belum punya karya pun muncul)
   Object.keys(CONTRIBUTOR_DATA).forEach(k => allNames.add(k));
 
-  allNames.forEach(name => {
-    const info = CONTRIBUTOR_DATA[name] || { bio: "...", foto: "" };
+  // Urutkan berdasarkan abjad (case-insensitive)
+  const sortedNames = [...allNames].sort((a, b) =>
+    a.localeCompare(b, "id", { sensitivity: "base" })
+  );
+
+  sortedNames.forEach(name => {
+    const info = CONTRIBUTOR_DATA[name] || { bio: "...", foto: "", ig: "" };
 
     // Karya milik kontributor ini
     const works = MATERI.filter(m =>
@@ -354,6 +391,7 @@ function buildContributors() {
           <div class="avatar">${avatarHTML}</div>
           <div class="contributor-info">
             <div class="contributor-name">${name}</div>
+            ${info.ig ? `<a class="contributor-ig" href="${info.ig}" target="_blank" rel="noopener"><i class="ti ti-brand-instagram"></i>Instagram</a>` : ""}
             <div class="${bioClass}">${bioText}</div>
           </div>
         </div>
