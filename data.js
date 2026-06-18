@@ -28,6 +28,7 @@ const TOPIK = [
   { id: "buku",     label: "Buku",           icon: "ti-books" },
   { id: "psikologi",label: "Psikologi",      icon: "ti-heart" },
   { id: "produktif",label: "Produktivitas",  icon: "ti-rocket" },
+  { id: "bookreview", label: "Book Review",  icon: "ti-book" },
 ];
 
 // ============================================================
@@ -65,8 +66,8 @@ const MATERI = [
     jenis: "Art",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
-    link: "knowledge_grenade.jpg",
-    thumbnail: "knowledge_grenade.jpg",
+    link: "https://drive.google.com/file/d/17HfijeWVVJ1Zy2bEQNuwvQuu0vIdV8ap/view?usp=drive_link",
+    thumbnail: "https://drive.google.com/thumbnail?id=17HfijeWVVJ1Zy2bEQNuwvQuu0vIdV8ap&sz=w400",
     deskripsi: "Silence is the pin that holds back revolution. Educate yourself. Question everything. Bitcoin is knowledge.",
   },
   {
@@ -75,8 +76,8 @@ const MATERI = [
     jenis: "Art",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
-    link: "bad_sector.jpg",
-    thumbnail: "bad_sector.jpg",
+    link: "https://www.instagram.com/p/DZLoq8agXip/",
+    thumbnail: "https://drive.google.com/thumbnail?id=1fTwSFlmoW4ODv2pAgR9wxo0gE-0cF0yZ&sz=w400",
     deskripsi: "Ketika sepotong hidupmu dikristalkan menjadi uang — di mana kamu menitipkan waktu itu?",
   },
   {
@@ -116,7 +117,7 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-06-16",
     link: "https://puzzlesofidea.netlify.app/",
-    thumbnail: "puzzle_of_idea.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1fNxHjZ24SJ5n9B5XILRGZJ1cm8W3YTmb&sz=w400",
     deskripsi: "Clarity, golden ratio, tipografi, narasi — 10 puzzle di balik setiap ide besar.",
   },
   {
@@ -126,7 +127,7 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2025-05-15",
     link: "https://thinklikemath.netlify.app/",
-    thumbnail: "think_like_math.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=14UoCMU7EJdtGdR26GU9vNtRjURgNGQRO&sz=w400",
     deskripsi: "Don't Trust, Verify — belajar berpikir dengan logika dan ketelitian seperti matematika.",
   },
   {
@@ -175,8 +176,8 @@ const MATERI = [
     jenis: "Infographic",
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2026-06-16",
-    link: "bitcoin_public_map_privacy.jpg",
-    thumbnail: "bitcoin_public_map_privacy.jpg",
+    link: "https://drive.google.com/file/d/1C7SyJnohLwSmn4MWbcQsXvhRXWgf49RO/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1C7SyJnohLwSmn4MWbcQsXvhRXWgf49RO&sz=w400",
     deskripsi: "Saldo Bitcoin itu peta publik, bukan buku tabungan — gimana jejak transaksi bisa dilacak, dan cara aktifin 'stealth mode' lewat CoinJoin, Lightning Network, sampai Coin Control.",
   },
   {
@@ -186,7 +187,7 @@ const MATERI = [
     kontributor: "Bitcoin SatoshiCat",
     tanggal: "2026-06-17",
     link: "https://satoshicatstory.netlify.app/",
-    thumbnail: "ketika_bitcoin_bercerita.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1meASkmV54jPr05G8-YDHIrS27rEpDvgn&sz=w400",
     deskripsi: "Komik strip Bitcoin — kisah Satoshicat dalam 11 halaman penuh warna yang bikin paham Bitcoin tanpa perlu baca whitepaper.",
   },
   {
@@ -246,7 +247,7 @@ const MATERI = [
     kontributor: "maxima.freiman",
     tanggal: "2026-06-18",
     link: "https://bitprotocol.netlify.app/",
-    thumbnail: "bitprotocol_thumbnail.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1ndtAZtj3EUe33FQjuRviPcs80BSCJrtK&sz=w400",
     deskripsi: "Pelajari bagaimana Bitcoin bekerja dari dasar hingga mekanisme terdalamnya, tanpa jargon rumit, tanpa hype crypto, dan tanpa harus jadi programmer.",
   },
   {
@@ -260,14 +261,55 @@ const MATERI = [
     deskripsi: "Membongkar mitos-mitos seputar keuangan dan dua angka penting yang sering diabaikan, tapi sebenarnya krusial untuk perjalanan finansialmu.",
   },
   {
+    judul: "Karet Nasi Padang",
+    topik: "filsafat",
+    jenis: "Article",
+    kontributor: "jokoart.id",
+    tanggal: "2026-06-18",
+    link: "https://www.instagram.com/p/DOV2C66DxN4/",
+    thumbnail: "https://drive.google.com/thumbnail?id=1AJN7GDwsfFatkAlTax_TWnOcufMD7Pjg&sz=w400",
+    deskripsi: "Kecil, murah, kadang putus — tapi selalu ada saat dibutuhkan. Refleksi tentang peran-peran yang dianggap remeh tapi menahan segalanya tetap utuh.",
+  },
+  {
     judul: "Siapa sih yang Pertama Kali Ngadain Makan 3x Sehari?",
     topik: "filsafat",
     jenis: "Article",
     kontributor: "jokoart.id",
     tanggal: "2026-04-16",
     link: "https://jokowarihwiguna.blogspot.com/2026/04/makan-3x-sehari-siapa-yang-ciptakan.html",
-    thumbnail: "joko_makan_3x_sehari_thumbnail.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1ivXxipeLwDR0tvyn5oSJiWkf8g_LhHPZ&sz=w400",
     deskripsi: "Hal yang dianggap biasa, dibedah sampai dalam — menelusuri asal-usul kebiasaan makan tiga kali sehari yang jarang dipertanyakan.",
   },
+  {
+    judul: "Berapa Bitcoin yang \"Cukup\"?",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-18",
+    link: "https://drive.google.com/open?id=1cdD9DE3SNMtwGL84WaMLkLnlYPmb8Ikm",
+    thumbnail: "https://drive.google.com/thumbnail?id=1cdD9DE3SNMtwGL84WaMLkLnlYPmb8Ikm&sz=w400",
+    deskripsi: "Target 1 BTC vs 0,1 BTC — kenapa 0,1 BTC sudah menempatkanmu jauh di atas mayoritas populasi dunia, dan mengapa Bitcoin lebih baik dijadikan aset warisan lintas generasi.",
+  },
+  {
+    judul: "The Richest Man in Babylon — Ringkasan & Penerapannya di 2026",
+    topik: "bookreview",
+    jenis: "PDF",
+    kontributor: "bitcoinsports.id",
+    tanggal: "2026-03-01",
+    link: "https://drive.google.com/file/d/1vIJr1dYnXO6d_ubpitl6dwS3oB-xOVZb/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1vIJr1dYnXO6d_ubpitl6dwS3oB-xOVZb&sz=w400",
+    deskripsi: "Ringkasan buku klasik karya George S. Clason beserta penerapan praktisnya di Indonesia 2026 — dari 7 prinsip membangun kekayaan hingga simulasi DCA Bitcoin.",
+  },
+  {
+    judul: "Understanding Bitcoin: A 21-Day Tweet-a-Day Journey (Bahasa Indonesia)",
+    topik: "bookreview",
+    jenis: "PDF",
+    kontributor: "bitcoinsports.id",
+    tanggal: "2026-06-18",
+    link: "https://drive.google.com/file/d/1FKvjyDGumFN4nVoofTkMgS9OUCgX4MEk/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1FKvjyDGumFN4nVoofTkMgS9OUCgX4MEk&sz=w400",
+    deskripsi: "Panduan Bitcoin 22 topik dalam Bahasa Indonesia — dari \"Apa itu Bitcoin?\" sampai membongkar mitos-mitos seperti soal energi, kriminalitas, dan larangan pemerintah. Cocok untuk pemula.",
+  },
+
 
 ];
