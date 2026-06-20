@@ -250,6 +250,12 @@
   .banner-body p { font-size: 13px; color: var(--green); }
   @media (max-width: 540px) {
     .banner { flex-direction: column; align-items: flex-start; }
+    nav { padding: 0 14px; gap: 8px; }
+    .logo-tagline { display: none; }
+    .logo-name { font-size: 13px; }
+    .search-box { display: none; }
+    .btn-contribute { padding: 7px 10px; font-size: 12px; }
+    .btn-contribute span.btn-label { display: none; }
   }
 
   /* ── Footer ── */
@@ -281,7 +287,7 @@
       <input type="search" id="search-input" placeholder="Cari materi..." autocomplete="off" />
     </div>
     <a class="btn-contribute" id="nav-contribute" href="contributors.html">
-      <i class="ti ti-users" aria-hidden="true"></i> Kontributor
+      <i class="ti ti-users" aria-hidden="true"></i> <span class="btn-label">Kontributor</span>
     </a>
   </div>
 </nav>
