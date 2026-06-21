@@ -567,7 +567,7 @@ const MATERI = [
     kontributor: "Aryo Utomo",
     tanggal: "2026-06-19",
     link: "https://drive.google.com/file/d/14s2_sK5Dgj6JM-t1CoXINWDZBgYTzI3h/view?usp=sharing",
-    thumbnail: "https://drive.google.com/thumbnail?id=1JaIcQkEJusDLScdZX3QHxa7JUMOcnscV&sz=w400",
+    thumbnail: "https://drive.google.com/thumbnail?id=14s2_sK5Dgj6JM-t1CoXINWDZBgYTzI3h&sz=w400",
     deskripsi: "Sebuah kisah transisi, keyakinan, dan membangun masa depan — dari mengelola uang, memahami uang, hingga membangun ulang sistem uang lewat Bitcoin.",
   },
   {
