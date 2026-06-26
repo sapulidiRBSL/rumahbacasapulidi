@@ -156,7 +156,7 @@ const MATERI = [
     judul: "Episode 2: Kripto: Harta Masa Depan atau Judi Modern?",
     topik: "ai",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-16",
     link: "https://open.spotify.com/episode/1H5nLKKXK75nu6MplSAdDo?si=OKThtg1pSzW4nZ4zpdMn_w",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a3860837bf00f4d27cf0709a8",
@@ -166,7 +166,7 @@ const MATERI = [
     judul: "Episode 7: Lawan Bias Otak Agar Pensiun 35 Tahun",
     topik: "ekonomi",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-06",
     link: "https://open.spotify.com/episode/5NPa6ulhE3JtHjhCjTmT1y",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
@@ -246,7 +246,7 @@ const MATERI = [
     judul: "Episode 3 : Adu Kedaulatan Kripto dan CBDC",
     topik: "ai",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-04",
     link: "https://open.spotify.com/episode/7hAzY9wqFhCRsab3v6Bs51",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8aebfdce052e86427dc324e1bd",
@@ -336,7 +336,7 @@ const MATERI = [
     judul: "Thailand: Pasar Jimat Terbesar",
     topik: "filsafat",
     jenis: "Article",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-19",
     link: "https://www.facebook.com/1216429964/posts/pfbid02wSPsaZtHuXX1p2VMjm99rj7SmRxY8cFn93QoAcmWgnXB6fYSmroQgNCbeqSBSyc6l/",
     thumbnail: "https://drive.google.com/thumbnail?id=1f1Yzh7h0Z7XrjAuaRNgxvp7_FpYLsjsy&sz=w400",
@@ -346,7 +346,7 @@ const MATERI = [
     judul: "Episode 4 - Bitcoin White Paper: Sistem Keuangan Bitcoin Tanpa Perantara Bank",
     topik: "bitcoin",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-05",
     link: "https://open.spotify.com/episode/64XtEEHWugQbQqvHfWztvg",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8aeac1e37041a7de8e83709a19",
@@ -506,7 +506,7 @@ const MATERI = [
     judul: "Episode 5 - Sejarah Rupiah dari Nyawa ke Digital",
     topik: "ekonomi",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-05",
     link: "https://open.spotify.com/episode/7hOiJ9j9leb6c4F3EZcQP4",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
@@ -596,7 +596,7 @@ const MATERI = [
     judul: "Episode 6 - Rahasia Penciptaan Uang dari Pulau Jekyll",
     topik: "ekonomi",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-06",
     link: "https://open.spotify.com/episode/4QZ814xjbdVaAysQjNWLS0",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
@@ -716,7 +716,7 @@ const MATERI = [
     judul: "Episode 8 - Bukan Salah Kopi Kamu Sulit Beli Rumah",
     topik: "ekonomi",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-17",
     link: "https://open.spotify.com/episode/2ZUBWWLx9MU8GrBXuX5QXH",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
@@ -916,7 +916,7 @@ const MATERI = [
     judul: "Episode 1 - Blokade Selat Hormuz Kuras Milyaran Dolar Crypto",
     topik: "ekonomi",
     jenis: "Podcast",
-    kontributor: "Podcast Kurniawan",
+    kontributor: "Kurniawan Doank",
     tanggal: "2026-06-03",
     link: "https://open.spotify.com/episode/2zho3DIytPiszH7K6pdbXs",
     thumbnail: "https://i.scdn.co/image/ab6765630000ba8a4247b29aeae6a2524488acc3",
@@ -1154,6 +1154,72 @@ const MATERI = [
     link: "https://lynk.id/annasahmad/kk2drv7ned29",
     thumbnail: "https://drive.google.com/thumbnail?id=1ijti0JhNKUsJ3wOrKEC__3biQPtYyE0x&sz=w400",
     deskripsi: "Trust the Process, WAGMI, Me Meyakinkan Diri: HODL Berusaha Terus — psikologi seorang Bitcoin HODLer yang tetap tenang di tengah deep loss dan volatilitas pasar.",
+  },
+
+
+
+  {
+    judul: "Bitcoin: Dari Pemula Hingga Ahli",
+    topik: "bitcoin-pemula",
+    jenis: "Video",
+    kontributor: "igp kanda",
+    tanggal: "2025-09-02",
+    link: "https://www.youtube.com/watch?v=12QoBjSdyWQ",
+    thumbnail: "https://img.youtube.com/vi/12QoBjSdyWQ/hqdefault.jpg",
+    deskripsi: "Menggali dunia Bitcoin melalui komunikasi dua arah yang interaktif bersama para ahli dan praktisi Bitcoin dari Jakarta — menjawab pertanyaan seputar apa itu Bitcoin, untuk apa membelinya, cara berinvestasi dengan aman, serta keuntungan dan kerugiannya.",
+  },
+
+
+
+  {
+    judul: "Bitcoin Indonesia Conference 2025 — Kenapa Keamanan Siber Penting untuk Menjaga Bitcoin Kita?",
+    topik: "bitcoin-pemula",
+    jenis: "Video",
+    kontributor: "igp kanda",
+    tanggal: "2025-09-09",
+    link: "https://www.youtube.com/watch?v=C-_6MZtLO8A",
+    thumbnail: "https://img.youtube.com/vi/C-_6MZtLO8A/hqdefault.jpg",
+    deskripsi: "Diskusi pentingnya kesadaran keamanan siber untuk menjaga Bitcoin kita, dibahas dalam Bitcoin Indonesia Conference 2025.",
+  },
+
+
+
+  {
+    judul: "Membangun Keyakinan atas Bitcoin (Meet Up Bitcoin Indonesia Bintaro)",
+    topik: "bitcoin-pemula",
+    jenis: "Video",
+    kontributor: "igp kanda",
+    tanggal: "2025-08-18",
+    link: "https://www.youtube.com/watch?v=RBhtI7n3RBU&t=2556s",
+    thumbnail: "https://img.youtube.com/vi/RBhtI7n3RBU/hqdefault.jpg",
+    deskripsi: "Meet up rutin setiap bulan Bitcoin Indonesia di Bintaro — membangun keyakinan atas Bitcoin bersama komunitas. Untuk jadwal cek ke sosial media Bitcoin Indonesia.",
+  },
+
+
+
+
+  {
+    judul: "Mengapa Bitcoin Bukan Hanya Soal Uang, Tapi Soal Kemerdekaan Jiwa",
+    topik: "bitcoin-pemula",
+    jenis: "Article",
+    kontributor: "Kurniawan Doank",
+    tanggal: "2026-06-26",
+    link: "https://www.facebook.com/awangbikal/posts/pfbid0F11Dit8fuUR73U16BoDGykc5ePsCmbJbGRc5Frcg9euMX7uxuwoxrdPxQ7CTb5vil",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Gd-IRF-3LLSO8vXWhvqU8Yf08Vj_WD-_&sz=w400",
+    deskripsi: "Setelah hampir setahun mempelajari Bitcoin, penulis sampai pada kesimpulan bahwa Bitcoin bukan soal grafik naik-turun — melainkan tentang kedaulatan individu, pembebasan dari ilusi sistem fiat, dan semangat Cypherpunk untuk merdeka secara finansial.",
+  },
+
+
+
+  {
+    judul: "Manifesto Seorang Stoic Bitcoiner",
+    topik: "filsafat",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-26",
+    link: "https://drive.google.com/file/d/1SE7r7YpEq2pOztJFnA7ksJY8ED-iX0Ln/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1SE7r7YpEq2pOztJFnA7ksJY8ED-iX0Ln&sz=w400",
+    deskripsi: "Tenang. Berpikir. Membangun. Bukan Mengejar. Bukan Mengeluh. — 8 prinsip seorang Stoic Bitcoiner: mengendalikan reaksi, mengejar pemahaman, membangun bukan sekadar berkomentar, dan menjadikan karakter sebagai pondasi.",
   },
 
 
