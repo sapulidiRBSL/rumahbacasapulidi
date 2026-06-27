@@ -9,7 +9,7 @@ const RBSL_CONFIG = {
   tagline: "Dari kita, untuk kita.",
   deskripsi: "Perpustakaan digital bersama — tempat belajar, berbagi, dan berkarya. Seperti sapu lidi, lebih kuat bersama.",
   // Link formulir kontribusi (ganti dengan link Tally/Google Form kamu)
-  linkKontribusi: "https://t.me/+p4JAxJAXuJ05OThl",
+  linkKontribusi: "https://forms.gle/qnPkcKaLX41VnAzd6",
 };
 
 // ============================================================
@@ -1246,6 +1246,45 @@ const MATERI = [
     link: "https://www.youtube.com/watch?v=Fx_A9Bj-INg&t=1108s",
     thumbnail: "https://img.youtube.com/vi/Fx_A9Bj-INg/hqdefault.jpg",
     deskripsi: "Seri Bitcoin 101 Indonesia — episode pertama untuk pemula yang ingin memahami Bitcoin dari dasar.",
+  },
+
+
+
+  {
+    judul: "Dua Dunia Bitcoin yang Sangat Berbeda",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-27",
+    link: "https://drive.google.com/file/d/17GVu4gXGHGd09uQQG-F3gUGsqIKt69H0/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=17GVu4gXGHGd09uQQG-F3gUGsqIKt69H0&sz=w400",
+    deskripsi: "Masalah Berbeda, Solusi Sama — di negara maju Bitcoin adalah investasi, di Global South Bitcoin adalah kebutuhan: bayar, kirim uang, simpan nilai, dan akses keuangan tanpa bank.",
+  },
+
+
+
+  {
+    judul: "Apa itu Bitcoin? — Bitcoin itu Cuma Catatan",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-27",
+    link: "https://www.youtube.com/shorts/cC9Qjyf6ey4",
+    thumbnail: "https://img.youtube.com/vi/cC9Qjyf6ey4/hqdefault.jpg",
+    deskripsi: "Penjelasan singkat dan sederhana: Bitcoin itu cuma catatan. Short video yang memperkenalkan konsep dasar Bitcoin dengan cara paling mudah dipahami.",
+  },
+
+
+
+  {
+    judul: "Siapa Mengendalikan Uang?",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-27",
+    link: "https://www.youtube.com/shorts/AUewS7oGupk",
+    thumbnail: "https://img.youtube.com/vi/AUewS7oGupk/hqdefault.jpg",
+    deskripsi: "Siapa sebenarnya yang mengendalikan uang kita dan bagaimana sistem itu bekerja? Short video yang membuka mata tentang kendali di balik sistem keuangan.",
   },
 
 
