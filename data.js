@@ -1160,7 +1160,7 @@ const MATERI = [
 
   {
     judul: "Bitcoin: Dari Pemula Hingga Ahli",
-    topik: "bitcoin-pemula",
+    topik: "bitcoin",
     jenis: "Video",
     kontributor: "igp kanda",
     tanggal: "2025-09-02",
@@ -1173,7 +1173,7 @@ const MATERI = [
 
   {
     judul: "Bitcoin Indonesia Conference 2025 — Kenapa Keamanan Siber Penting untuk Menjaga Bitcoin Kita?",
-    topik: "bitcoin-pemula",
+    topik: "bitcoin",
     jenis: "Video",
     kontributor: "igp kanda",
     tanggal: "2025-09-09",
@@ -1186,7 +1186,7 @@ const MATERI = [
 
   {
     judul: "Membangun Keyakinan atas Bitcoin (Meet Up Bitcoin Indonesia Bintaro)",
-    topik: "bitcoin-pemula",
+    topik: "bitcoin",
     jenis: "Video",
     kontributor: "igp kanda",
     tanggal: "2025-08-18",
@@ -1200,7 +1200,7 @@ const MATERI = [
 
   {
     judul: "Mengapa Bitcoin Bukan Hanya Soal Uang, Tapi Soal Kemerdekaan Jiwa",
-    topik: "bitcoin-pemula",
+    topik: "bitcoin",
     jenis: "Article",
     kontributor: "Kurniawan Doank",
     tanggal: "2026-06-26",
@@ -1220,6 +1220,32 @@ const MATERI = [
     link: "https://drive.google.com/file/d/1SE7r7YpEq2pOztJFnA7ksJY8ED-iX0Ln/view?usp=sharing",
     thumbnail: "https://drive.google.com/thumbnail?id=1SE7r7YpEq2pOztJFnA7ksJY8ED-iX0Ln&sz=w400",
     deskripsi: "Tenang. Berpikir. Membangun. Bukan Mengejar. Bukan Mengeluh. — 8 prinsip seorang Stoic Bitcoiner: mengendalikan reaksi, mengejar pemahaman, membangun bukan sekadar berkomentar, dan menjadikan karakter sebagai pondasi.",
+  },
+
+
+
+  {
+    judul: "Menembus Kabut Konspirasi: Memahami Kebenaran di Balik Bitcoin dan Kriptografi",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "jokoart.id",
+    tanggal: "2026-06-27",
+    link: "https://drive.google.com/file/d/1fb0kfxveUE877_j9FZrNWrNJeSqGTKM1/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1hArzWUFiDF4PPYXKLx5tHZMRQEogHKtv&sz=w400",
+    deskripsi: "Fenomena video viral tokoh berwibawa yang mengklaim Bitcoin adalah alat konspirasi intelijen — PDF ini membedah sesat pikir argumentum ad verecundiam dan meluruskan kebenaran di balik Bitcoin dan kriptografi dengan bukti teknis.",
+  },
+
+
+
+  {
+    judul: "Bitcoin 101 Indonesia #1",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "igp kanda",
+    tanggal: "2026-06-27",
+    link: "https://www.youtube.com/watch?v=Fx_A9Bj-INg&t=1108s",
+    thumbnail: "https://img.youtube.com/vi/Fx_A9Bj-INg/hqdefault.jpg",
+    deskripsi: "Seri Bitcoin 101 Indonesia — episode pertama untuk pemula yang ingin memahami Bitcoin dari dasar.",
   },
 
 
