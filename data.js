@@ -1288,4 +1288,17 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Rebalancing Portfolio",
+    topik: "ekonomi",
+    jenis: "Tools",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-28",
+    link: "https://www.jurnaltrading.online/p/rebalancing-portfolio.html#",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Iiqtq_K6YMLjuitORDxFtQnHNpR7caxe&sz=w400",
+    deskripsi: "Dashboard portofolio interaktif — pantau Gross Net Worth, True Wealth, dan Rasio Aset Produktif. Kelola alokasi aset (Cash, Saham, Emas, Bitcoin, Property, Bisnis) dan lakukan rebalancing menuju target alokasi ideal.",
+  },
+
+
 ];
