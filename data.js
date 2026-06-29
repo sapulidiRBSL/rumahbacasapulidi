@@ -1301,4 +1301,43 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Apakah Perlu Punya Bitcoin Sekarang?",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-06-29",
+    link: "https://drive.google.com/file/d/1iPOObMjVOf--Udyl0zXy3cEkkNqELBkj/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1iPOObMjVOf--Udyl0zXy3cEkkNqELBkj&sz=w400",
+    deskripsi: "Sebuah refleksi singkat gaya Cypherpunk — dan bagaimana jika kamu tidak peduli, alias belum sadar? Manifesto singkat yang mengajak berpikir ulang tentang urgensi memiliki Bitcoin sekarang.",
+  },
+
+
+
+  {
+    judul: "Bitcoin vs Inflasi",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-06-29",
+    link: "https://drive.google.com/file/d/1IGaWpH810XudDs3xJwCnz3I8zq2zW9GU/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1IGaWpH810XudDs3xJwCnz3I8zq2zW9GU&sz=w400",
+    deskripsi: "Seberapa kuat & lama Bitcoin Treasury menahan laju inflasi? Presentasi strategis tentang Orange Manifesto, Digital Gold, dan Time Discipline dalam konteks Bitcoin sebagai pelindung nilai.",
+  },
+
+
+
+  {
+    judul: "Portfolio Investment Strategy — 3-Year Projection Analysis",
+    topik: "ekonomi",
+    jenis: "Tools",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-06-29",
+    link: "https://docs.google.com/spreadsheets/d/1MDA8Y6ZLvTpIgDza0QnIFL3P2s3NYtpE/edit?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1_F4_AYYBJlMXOEqj959CPPp7aJ1gGa7_&sz=w400",
+    deskripsi: "Spreadsheet analisis proyeksi portofolio 3 tahun — bandingkan skenario Conservative, Moderate, dan Aggressive di kondisi Bull, Bear, dan Sideways. Lengkap dengan Key Metrics, Return Comparison, dan Recommended Allocation.",
+  },
+
+
 ];
