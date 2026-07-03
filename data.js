@@ -21,9 +21,10 @@ const TOPIK = [
   { id: "bitcoinmath", label: "Bitcoin & Math", icon: "ti-math-function" },
   { id: "bitcoinphilosophy", label: "Bitcoin & Philosophy", icon: "ti-yin-yang" },
   { id: "bitcointechnicals", label: "Bitcoin Technicals Made Simple", icon: "ti-settings-cog" },
+  { id: "ekonomi",  label: "Bitcoin & Economy", icon: "ti-chart-line" },
+  { id: "bitcoin-kids", label: "Bitcoin for Kids", icon: "ti-mood-kid" },
   { id: "technicalanalysis", label: "Technical Analysis", icon: "ti-chart-candle" },
   { id: "sapulidijournal", label: "Sapu Lidi's Journal", icon: "ti-feather" },
-  { id: "ekonomi",  label: "Bitcoin & Economy", icon: "ti-chart-line" },
   { id: "filsafat", label: "Philosophy",       icon: "ti-brain" },
   { id: "ai",       label: "Technology", icon: "ti-cpu" },
   { id: "sejarah",  label: "Sejarah",        icon: "ti-history" },
@@ -1337,6 +1338,78 @@ const MATERI = [
     link: "https://docs.google.com/spreadsheets/d/1MDA8Y6ZLvTpIgDza0QnIFL3P2s3NYtpE/edit?usp=sharing",
     thumbnail: "https://drive.google.com/thumbnail?id=1_F4_AYYBJlMXOEqj959CPPp7aJ1gGa7_&sz=w400",
     deskripsi: "Spreadsheet analisis proyeksi portofolio 3 tahun — bandingkan skenario Conservative, Moderate, dan Aggressive di kondisi Bull, Bear, dan Sideways. Lengkap dengan Key Metrics, Return Comparison, dan Recommended Allocation.",
+  },
+
+
+
+  {
+    judul: "Financial Freedom Calculator",
+    topik: "ekonomi",
+    jenis: "Tools",
+    kontributor: "annasahmads",
+    tanggal: "2026-06-29",
+    link: "https://www.annasahmad.com/p/financial-freedom-calculator.html",
+    thumbnail: "https://drive.google.com/thumbnail?id=1njviLUpkw6HmyPTxTEVRqIgNEMGyi0OP&sz=w400",
+    deskripsi: "Kalkulator Kebebasan Finansial Bitcoin — pahami risikonya, hitung kebutuhan Anda. Sebelum memulai, pastikan Anda memahami konsep-konsep dasar dan risiko strategi ini.",
+  },
+
+
+
+  {
+    judul: "Bitcoin Volatility and the Rise",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-02",
+    link: "https://www.youtube.com/watch?v=U_FW8c3FDbE",
+    thumbnail: "https://img.youtube.com/vi/U_FW8c3FDbE/hqdefault.jpg",
+    deskripsi: "Bitcoin sebagai bentuk revolusioner dari digital capital — membandingkan volatilitas pasarnya saat ini dengan masa-masa awal pertumbuhan raksasa teknologi.",
+  },
+
+
+
+  {
+    judul: "Bitcoin 2140: Survival After the Final Coin Mining",
+    topik: "bitcoin",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-02",
+    link: "https://www.youtube.com/watch?v=33qBcmYOuJ4",
+    thumbnail: "https://img.youtube.com/vi/33qBcmYOuJ4/hqdefault.jpg",
+    deskripsi: "Bitcoin mendekati batas maksimum 21 juta koin yang diproyeksikan tercapai tahun 2140 — bagaimana jaringan bertahan saat block reward habis dan beralih sepenuhnya ke sistem yang didanai oleh transaction fees?",
+  },
+
+
+
+  {
+    judul: "That's How Blockchain Works",
+    topik: "bitcoin-kids",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-02",
+    link: "https://www.youtube.com/shorts/XAut7rebICU",
+    thumbnail: "https://img.youtube.com/vi/XAut7rebICU/hqdefault.jpg",
+    deskripsi: "Animasi singkat dan sederhana yang menjelaskan cara kerja blockchain — cocok untuk anak-anak dan siapa saja yang baru mulai belajar.",
+  },
+  {
+    judul: "History of Money in 20 Seconds",
+    topik: "bitcoin-kids",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-02",
+    link: "https://www.youtube.com/shorts/zSRJx6XsuQo",
+    thumbnail: "https://img.youtube.com/vi/zSRJx6XsuQo/hqdefault.jpg",
+    deskripsi: "Sejarah uang dalam 20 detik — ringkas, visual, dan mudah dipahami semua usia.",
+  },
+  {
+    judul: "Why Is Inflation Invisible?",
+    topik: "bitcoin-kids",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-03",
+    link: "https://www.youtube.com/shorts/-BKq9v1ENqM",
+    thumbnail: "https://img.youtube.com/vi/-BKq9v1ENqM/hqdefault.jpg",
+    deskripsi: "Kenapa inflasi sulit kita sadari? Animasi singkat yang menjelaskan konsep inflasi dengan cara mudah dan menyenangkan untuk anak-anak.",
   },
 
 
