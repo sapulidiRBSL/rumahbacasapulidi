@@ -1411,6 +1411,26 @@ const MATERI = [
     thumbnail: "https://img.youtube.com/vi/-BKq9v1ENqM/hqdefault.jpg",
     deskripsi: "Kenapa inflasi sulit kita sadari? Animasi singkat yang menjelaskan konsep inflasi dengan cara mudah dan menyenangkan untuk anak-anak.",
   },
+  {
+    judul: "Apa Itu Elastic Money?",
+    topik: "ekonomi",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-03",
+    link: "https://drive.google.com/file/d/16cZ2lesRGHqqb63ar5htkcf5MXna2-OD/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=16cZ2lesRGHqqb63ar5htkcf5MXna2-OD&sz=w400",
+    deskripsi: "Uang yang jumlahnya bisa bertambah atau berkurang sesuai kebutuhan ekonomi — konsep dari ekonomi Austria, dijelaskan lewat analogi jalan tol dan visual yang mudah dipahami.",
+  },
+  {
+    judul: "Episode 9 - Putin Putus Rantai Riba Rothschild",
+    topik: "ekonomi",
+    jenis: "Podcast",
+    kontributor: "Kurniawan Doank",
+    tanggal: "2026-07-02",
+    link: "https://open.spotify.com/episode/15PrTPZpL3kyj9XhJqSB6X",
+    thumbnail: "https://i.scdn.co/image/ab6765630000ba8a7238de2e493d920863e5cef2",
+    deskripsi: "Membahas langkah Putin memutus ketergantungan ekonomi Rusia dari sistem perbankan global, lewat nasionalisasi aset, pelunasan utang luar negeri, penguatan cadangan emas, dan dedolarisasi bersama BRICS.",
+  },
 
 
 ];
