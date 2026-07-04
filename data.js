@@ -1446,4 +1446,30 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "The World's Biggest Illusion",
+    topik: "bitcoin-kids",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-05",
+    link: "https://www.youtube.com/shorts/tRAyMdzajTE",
+    thumbnail: "https://img.youtube.com/vi/tRAyMdzajTE/hqdefault.jpg",
+    deskripsi: "Ilustrasi singkat tentang fractional reserve banking — ilusi terbesar dalam sistem keuangan dunia, dijelaskan dengan visual yang mudah dipahami.",
+  },
+
+
+
+  {
+    judul: "The Biggest Secret About Money",
+    topik: "bitcoin-kids",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-05",
+    link: "https://www.youtube.com/shorts/7l8pZH4jkJM",
+    thumbnail: "https://img.youtube.com/vi/7l8pZH4jkJM/hqdefault.jpg",
+    deskripsi: "Rahasia terbesar tentang uang — kebanyakan orang mengira uang adalah kekayaan, padahal kekayaan sejati adalah barang dan jasa nyata. Short video animasi yang menjelaskan konsep ini dengan cara yang mudah dipahami semua usia.",
+  },
+
+
 ];
