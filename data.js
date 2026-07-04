@@ -1433,4 +1433,17 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Panduan Lengkap Electrum Bitcoin Wallet",
+    topik: "bitcointechnicals",
+    jenis: "Infographic",
+    kontributor: "jokoart.id",
+    tanggal: "2026-07-05",
+    link: "https://drive.google.com/file/d/1vwIumvB3f9YnkHC2UeqbYUwU65jFrt3u/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1vwIumvB3f9YnkHC2UeqbYUwU65jFrt3u&sz=w400",
+    deskripsi: "Simpan Bitcoin Sendiri — Aman, Praktis, Jangka Panjang. Panduan lengkap 11 langkah: download Electrum, siapkan flashdisk, masuk wallet, komponen penting, aturan wajib, skenario darurat, hingga cara menyimpan seed dengan aman. Siapa pegang seed, dia pegang Bitcoin.",
+  },
+
+
 ];
