@@ -23,6 +23,7 @@ const TOPIK = [
   { id: "bitcointechnicals", label: "Bitcoin Technicals Made Simple", icon: "ti-settings-cog" },
   { id: "ekonomi",  label: "Bitcoin & Economy", icon: "ti-chart-line" },
   { id: "bitcoin-kids", label: "Bitcoin for Kids", icon: "ti-mood-kid" },
+  { id: "bitcoin-grandparents", label: "Bitcoin for Grandparents", icon: "ti-hearts" },
   { id: "technicalanalysis", label: "Technical Analysis", icon: "ti-chart-candle" },
   { id: "sapulidijournal", label: "Sapu Lidi's Journal", icon: "ti-feather" },
   { id: "filsafat", label: "Philosophy",       icon: "ti-brain" },
@@ -1469,6 +1470,32 @@ const MATERI = [
     link: "https://www.youtube.com/shorts/7l8pZH4jkJM",
     thumbnail: "https://img.youtube.com/vi/7l8pZH4jkJM/hqdefault.jpg",
     deskripsi: "Rahasia terbesar tentang uang — kebanyakan orang mengira uang adalah kekayaan, padahal kekayaan sejati adalah barang dan jasa nyata. Short video animasi yang menjelaskan konsep ini dengan cara yang mudah dipahami semua usia.",
+  },
+
+
+
+  {
+    judul: "Bitcoin untuk Oma & Opa",
+    topik: "bitcoin-grandparents",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-05",
+    link: "https://drive.google.com/file/d/1-R0uFXQxz7KuHIuM5pk9uY-Iwlr9BPaM/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1-R0uFXQxz7KuHIuM5pk9uY-Iwlr9BPaM&sz=w400",
+    deskripsi: "Menjaga Nilai, Melengkapi Masa Depan — penjelasan Bitcoin untuk orang tua dengan analogi mudah: tanah digital, emas modern, cara kerjanya, kenapa harganya naik turun, dan pentingnya diversifikasi. Bukan untuk cepat kaya, tapi untuk menjaga nilai kekayaan jangka panjang.",
+  },
+
+
+
+  {
+    judul: "Secangkir Teh & Bitcoin",
+    topik: "bitcoin-grandparents",
+    jenis: "PDF",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-07-05",
+    link: "https://drive.google.com/file/d/1emhOOdLeJBDOECBqCqyZ52Zxzts-mqX9/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1emhOOdLeJBDOECBqCqyZ52Zxzts-mqX9&sz=w400",
+    deskripsi: "Sebuah obrolan santai tentang warisan, zaman yang berubah, dan kebijaksanaan yang tetap sama — pendekatan hangat dan relatable untuk menjelaskan Bitcoin kepada generasi yang lebih tua.",
   },
 
 
