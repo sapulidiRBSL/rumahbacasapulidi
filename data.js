@@ -1499,4 +1499,17 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Menjaga Nilai di Era Uang yang Dicetak Tanpa Batas",
+    topik: "bitcoin-grandparents",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-06",
+    link: "https://drive.google.com/file/d/1GAg3F8EhWif31FSbTlgZzObBnbdM8v3j/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1GAg3F8EhWif31FSbTlgZzObBnbdM8v3j&sz=w400",
+    deskripsi: "Bitcoin untuk Old Money — perpaduan konsep Time Freedom of Money dan Orange Manifesto, dijelaskan dengan bahasa yang tenang, elegan, dan mudah dipahami. Sebuah edukasi hangat dari cucu untuk Oma & Opa.",
+  },
+
+
 ];
