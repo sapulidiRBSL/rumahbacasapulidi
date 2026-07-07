@@ -1527,14 +1527,66 @@ const MATERI = [
 
 
   {
-    judul: "Pengantar Ekonomi Austria — Sesi 4: Penentuan Harga, Inflasi, dan Tabungan",
-    topik: "ekonomi",
+    judul: "Ciri Literasi Rendah & Jebakan FOMO",
+    topik: "bitcoin",
     jenis: "PDF",
-    kontributor: "mithos_btc",
-    tanggal: "2026-05-03",
-    link: "https://docs.google.com/presentation/d/1dFe43B4WNjpwUxHgphUIwerNEWk702lxQKfM02AehKE/edit?usp=sharing",
-    thumbnail: "https://drive.google.com/thumbnail?id=1K4lDV_CXfoTwU_m-HJEzHv5cTCi_KmgG&sz=w400",
-    deskripsi: "Sesi keempat dari seri Pengantar Ekonomi Austria — membahas penentuan harga, inflasi, dan tabungan. Dipresentasikan oleh @mithos_btc di Jakarta Barat, 3 Mei 2026.",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-07",
+    link: "https://drive.google.com/file/d/1wXFnBZatmed0f2oVsr9qApGM6N9G9ca0/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1wXFnBZatmed0f2oVsr9qApGM6N9G9ca0&sz=w400",
+    deskripsi: "Mengapa banyak orang salah paham tentang Bitcoin — dan bagaimana manifesto Bitcoin menjawabnya. Sebuah panduan berpikir tentang ciri literasi rendah dan jebakan FOMO dalam dunia kripto.",
+  },
+
+
+
+  {
+    judul: "Zero-Sum vs Positive-Sum",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-07",
+    link: "https://drive.google.com/file/d/1yPdZk0oA6ArN9DXhkNym0O41qf5K_3aw/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1yPdZk0oA6ArN9DXhkNym0O41qf5K_3aw&sz=w400",
+    deskripsi: "Memahami Bitcoin di balik FOMO, Panic Selling & Short Trading — dipadukan dengan semangat Cypherpunk Manifesto. Cypherpunks write code.",
+  },
+
+
+
+  {
+    judul: "Mengapa Pemahaman Bitcoin Masih Rendah?",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-07",
+    link: "https://drive.google.com/file/d/14JJ8RvEIxTL1QTUzskGJtuKtHwgq61Dw/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=14JJ8RvEIxTL1QTUzskGJtuKtHwgq61Dw&sz=w400",
+    deskripsi: "9 Pola Pikir yang Menahan Orang untuk Paham — bukan Bitcoin-nya yang salah, tapi cara pandangnya yang keliru. Dari zero sum game, mindset untung saja, spekulasi, hingga anggapan Bitcoin = scam.",
+  },
+
+
+
+  {
+    judul: "Kebenaran Tentang Bitcoin",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-07",
+    link: "https://drive.google.com/file/d/1pRJW05_uFpfVGvzVlIhvTekSA2lk1rnu/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1pRJW05_uFpfVGvzVlIhvTekSA2lk1rnu&sz=w400",
+    deskripsi: "Volatilitas ≠ Penipuan, 'Cepat Kaya' itu Ilusi, Influencers ≠ Pengetahuan, Tidak Ada Kantor/CEO bukan kelemahan tapi desentralisasi, dan Pencipta Anonim: Kode > Kepribadian. Lima kebenaran tentang Bitcoin yang sering disalahpahami.",
+  },
+
+
+
+  {
+    judul: "Zero-Sum Game vs Positive-Sum Game",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-07",
+    link: "https://drive.google.com/file/d/1xOchFDDuTKNh-BblHoRe-zPKx1vVj-qJ/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1xOchFDDuTKNh-BblHoRe-zPKx1vVj-qJ&sz=w400",
+    deskripsi: "Memahami Bitcoin di balik FOMO, Panic Selling, dan Short Trading — perbandingan Zero-Sum (menang = rugi orang lain) vs Positive-Sum (semua peserta bisa menang), tiga jebakan psikologis, dan Bitcoin sebagai realisasi Manifesto Cypherpunk.",
   },
 
 
