@@ -1512,4 +1512,30 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Pengantar Ekonomi Austria — Sesi 2: Teori Hazlitt",
+    topik: "ekonomi",
+    jenis: "PDF",
+    kontributor: "mithos_btc",
+    tanggal: "2026-05-03",
+    link: "https://docs.google.com/presentation/d/1HuIOyq7kZ0_rkLXKsjiza6e3Rk39ZKMuV-RBCaktfHU/edit?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=10yF4GWfG8EnGWjnApzatS4LzLulHwuAj&sz=w400",
+    deskripsi: "Sesi kedua dari seri Pengantar Ekonomi Austria — membahas Teori Hazlitt dalam konteks ekonomi dan Bitcoin. Dipresentasikan oleh @mithos_btc di Jakarta Barat, 3 Mei 2026.",
+  },
+
+
+
+  {
+    judul: "Pengantar Ekonomi Austria — Sesi 4: Penentuan Harga, Inflasi, dan Tabungan",
+    topik: "ekonomi",
+    jenis: "PDF",
+    kontributor: "mithos_btc",
+    tanggal: "2026-05-03",
+    link: "https://docs.google.com/presentation/d/1dFe43B4WNjpwUxHgphUIwerNEWk702lxQKfM02AehKE/edit?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1K4lDV_CXfoTwU_m-HJEzHv5cTCi_KmgG&sz=w400",
+    deskripsi: "Sesi keempat dari seri Pengantar Ekonomi Austria — membahas penentuan harga, inflasi, dan tabungan. Dipresentasikan oleh @mithos_btc di Jakarta Barat, 3 Mei 2026.",
+  },
+
+
 ];
