@@ -1590,4 +1590,17 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "The Rise of \"Financial Nihilism\": Why Gen Z Treats the Stock and Crypto Like a Casino",
+    topik: "ekonomi",
+    jenis: "Video",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-08",
+    link: "https://www.youtube.com/watch?v=j637zK7_xjQ",
+    thumbnail: "https://img.youtube.com/vi/j637zK7_xjQ/hqdefault.jpg",
+    deskripsi: "Rencana tradisional menabung, beli rumah, dan membangun ekuitas sudah resmi rusak. Ketika Gen Z terkunci dari kepemilikan properti dan uang tak lagi menyimpan nilai, muncullah Financial Nihilism — tren brilian adaptasi sistem rusak, atau tanda darurat kolektif?",
+  },
+
+
 ];
