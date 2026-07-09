@@ -1603,4 +1603,43 @@ const MATERI = [
   },
 
 
+
+  {
+    judul: "Trading For Living — Kalkulator Modal Trading",
+    topik: "technicalanalysis",
+    jenis: "Tools",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-08",
+    link: "https://www.jurnaltrading.online/p/trading-for-living.html",
+    thumbnail: "https://drive.google.com/thumbnail?id=1ZI7LdxV2MaG7EEg6aL8wt1AWd1J0WGKe&sz=w400",
+    deskripsi: "Hitung kebutuhan modal ideal berdasarkan biaya hidup, win rate, dan manajemen risiko — kalkulator interaktif untuk trader yang ingin hidup dari trading secara konsisten.",
+  },
+
+
+
+  {
+    judul: "The Remora's Guide to Surviving the Market",
+    topik: "technicalanalysis",
+    jenis: "PDF",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-09",
+    link: "https://drive.google.com/file/d/1NTT7V9a85qONKgEUFF5tYe_9blCOLOZB/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1NTT7V9a85qONKgEUFF5tYe_9blCOLOZB&sz=w400",
+    deskripsi: "Ekosistem pasar yang brutal, jenjang karir trader, dan Golden Rules untuk retail trader — kamu adalah ikan kecil yang mencoba mengambil remah-remah tanpa ikut terhancurkan oleh whale yang mendikte arus.",
+  },
+
+
+
+  {
+    judul: "Profesi Potensial untuk Bitcoiner",
+    topik: "ekonomi",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-09",
+    link: "https://drive.google.com/file/d/1Sow4L_7uyO3XnzIT9dtOMDu9yiLqr9T6/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Sow4L_7uyO3XnzIT9dtOMDu9yiLqr9T6&sz=w400",
+    deskripsi: "Ubah pengetahuanmu jadi penghasilan! 12 profesi potensial untuk Bitcoiner: Content Creator, Trainer/Mentor, Konsultan Bitcoin, Penulis Artikel, Research Analyst, Community Manager, Translator, Technical Support, Node Installer, Lightning Consultant, Bitcoin Developer, hingga Designer Bitcoin.",
+  },
+
+
 ];
