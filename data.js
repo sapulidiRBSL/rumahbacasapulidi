@@ -1710,6 +1710,36 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1t5aumIsDh2OIcI87ad4_zlVBP4aq_6Of&sz=w400",
     deskripsi: "Peta 16 jenis Bitcoiner dalam satu jaringan bebas & terdesentralisasi — dari Educator, Adopter, Riset, Mining, Node Runner, Realistik & Stoik, Bisnis, Investment, Macro & On-Chain, Sosial Impact, Circular Economy, Leverage, Developer, Community & Volunteer, Trader, hingga Maximalis. Berbeda jalan, satu tujuan: kebebasan finansial & kedaulatan individu.",
   },
+  {
+    judul: "Mining Bitcoin Itu Gimana Sih?",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-11",
+    link: "https://www.youtube.com/post/UgkxX96L3CUajumRHE08w2SM9HH66wajWL8o",
+    thumbnail: "https://drive.google.com/thumbnail?id=1plsCYgCOrA2B4MrR3s0gZEE_jgvKioPw&sz=w400",
+    deskripsi: "Penjelasan sederhana tentang cara kerja mining Bitcoin — mulai dari transaksi masuk, dikumpulkan jadi blok, para miner berlomba memecahkan teka-teki matematika, hingga miner dapat hadiah dan blok terhubung ke blockchain.",
+  },
+  {
+    judul: "Jika Marcus Aurelius Menilaimu",
+    topik: "filsafat",
+    jenis: "Tools",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-07-11",
+    link: "https://sapulidirbsl.github.io/stoikquiz/",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Tywse6hUG3wyi0wbxnZB56aW0uNMPc-7&sz=w400",
+    deskripsi: "Akankah para filsuf menganggapmu cukup bijaksana? Selama lebih dari dua ribu tahun, empat filsuf Stoik — Marcus Aurelius, Epictetus, Seneca, dan Cato the Younger — meninggalkan cara berpikir yang terus menginspirasi dunia. Mereka akan memberimu beberapa situasi.",
+  },
+  {
+    judul: "Kenapa Mining Bitcoin Perlu Waktu 10 Menit?",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-11",
+    link: "https://www.youtube.com/post/Ugkxt2Hfcroom3yQbgiT9gRzx6pzIOZP-onL",
+    thumbnail: "https://drive.google.com/thumbnail?id=1V2v2XPRK205wO4rZ84MSks5vbQdMAQo4&sz=w400",
+    deskripsi: "Bitcoin dirancang agar rata-rata hanya bisa memastikan 1 blok baru setiap 10 menit. Ini soal keamanan, kompetisi miner memecahkan teka-teki matematika, dan sistem penyesuaian tingkat kesulitan (difficulty adjustment) otomatis setiap 2.016 blok agar waktu blok tetap stabil.",
+  },
 
 
 ];
