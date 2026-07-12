@@ -1740,6 +1740,26 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1V2v2XPRK205wO4rZ84MSks5vbQdMAQo4&sz=w400",
     deskripsi: "Bitcoin dirancang agar rata-rata hanya bisa memastikan 1 blok baru setiap 10 menit. Ini soal keamanan, kompetisi miner memecahkan teka-teki matematika, dan sistem penyesuaian tingkat kesulitan (difficulty adjustment) otomatis setiap 2.016 blok agar waktu blok tetap stabil.",
   },
+  {
+    judul: "Memahami Volatilitas Bitcoin: Sudut Pandang Keuangan Islam",
+    topik: "bitcoinphilosophy",
+    jenis: "Video",
+    kontributor: "hapdul",
+    tanggal: "2026-07-12",
+    link: "https://www.youtube.com/watch?v=wAdvnR8xfHw",
+    thumbnail: "https://img.youtube.com/vi/wAdvnR8xfHw/hqdefault.jpg",
+    deskripsi: "Pandangan volatilitas Bitcoin dari perspektif keuangan Islam — membahas hukum vs praktikalitas, Bitcoin sebagai komoditas, harga sebagai ketetapan Allah, perbandingan karakteristik aset, kebijaksanaan dalam anggaran, serta stabilitas fiat yang seringkali manipulatif.",
+  },
+  {
+    judul: "Bitcoin & Inovasi: Memahami Landasan Hukum Islam",
+    topik: "bitcoinphilosophy",
+    jenis: "Video",
+    kontributor: "hapdul",
+    tanggal: "2026-07-05",
+    link: "https://www.youtube.com/watch?v=x4eZ1_I7Cg8",
+    thumbnail: "https://img.youtube.com/vi/x4eZ1_I7Cg8/hqdefault.jpg",
+    deskripsi: "Prinsip-prinsip dasar fikih Islam dalam menilai inovasi teknologi baru — membahas niat vs realitas objek, analogi inovasi dalam teknologi, kaidah hukum asal inovasi, hukum asal duniawi adalah halal, beban pembuktian pada keharaman, serta kehati-hatian pribadi vs fatwa umum.",
+  },
 
 
 ];
