@@ -1830,6 +1830,36 @@ const MATERI = [
     thumbnail: "https://img.youtube.com/vi/b9qvIcLiVaY/hqdefault.jpg",
     deskripsi: "Jebakan kesibukan (the time trap) vs strategi menuju kedaulatan waktu — membahas sikap bukalah, beli kembali waktu Anda, ikut produktivitas, pertukaran yang tulus, dan bagaimana dengan sistem yang tepat kamu bisa menjadi pemilik waktu sejati.",
   },
+  {
+    judul: "Solo, Pool, Hosting Mining & Site Farming",
+    topik: "bitcointechnicals",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-14",
+    link: "https://drive.google.com/file/d/15l5VlJqFs-C5y6fWi-MBs18VrscE2YNB/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=15l5VlJqFs-C5y6fWi-MBs18VrscE2YNB&sz=w400",
+    deskripsi: "Bukan harga. Bukan chart. Bukan trading. Bitcoin diproduksi — dari energi dan matematika. Edisi edukasi 2026 tentang mining dan produksi koin virgin.",
+  },
+  {
+    judul: "Sisi Lain di Balik Layar: Virgin Bitcoin",
+    topik: "bitcointechnicals",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-14",
+    link: "https://drive.google.com/file/d/1Jmb0K91A4dK_cVBORdn0xfBQI6-_Fsh6/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Jmb0K91A4dK_cVBORdn0xfBQI6-_Fsh6&sz=w400",
+    deskripsi: "Bukan harga. Bukan chart. Bukan trading. Inilah pabrik tak kasat mata yang melahirkan Bitcoin: proses mining, produksi koin virgin, dan evolusi mesinnya. Mining · Solo · Pool · Hosting · ASIC.",
+  },
+  {
+    judul: "Dari Energi Menjadi Bitcoin: Menambang Bukan Cuma Cari Bitcoin",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-14",
+    link: "https://drive.google.com/file/d/13ZLbdKkqjA-PcSX5HKdVNYCC8lM91E03/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=13ZLbdKkqjA-PcSX5HKdVNYCC8lM91E03&sz=w400",
+    deskripsi: "Mining = mengubah listrik menjadi uang digital. Energi + mesin + matematika = produksi Bitcoin. Mining menjaga jaringan tetap aman & terdesentralisasi — setiap blok = transaksi valid, jaringan aman = Bitcoin tetap berjalan. Bitcoin = nilai yang bebas & terbuka untuk kebebasan finansial semua orang.",
+  },
 
 
 ];
