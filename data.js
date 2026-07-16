@@ -1860,6 +1860,36 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=13ZLbdKkqjA-PcSX5HKdVNYCC8lM91E03&sz=w400",
     deskripsi: "Mining = mengubah listrik menjadi uang digital. Energi + mesin + matematika = produksi Bitcoin. Mining menjaga jaringan tetap aman & terdesentralisasi — setiap blok = transaksi valid, jaringan aman = Bitcoin tetap berjalan. Bitcoin = nilai yang bebas & terbuka untuk kebebasan finansial semua orang.",
   },
+  {
+    judul: "Elastisitas Uang & Hiperbitcoinisasi",
+    topik: "ekonomi",
+    jenis: "Blog",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-07-14",
+    link: "https://elatisitasdanhiperbitcoinisasi.netlify.app/",
+    thumbnail: "https://drive.google.com/thumbnail?id=1wlxU2pdYPMZV9Qt_OS3eXFZpZWGv6VUG&sz=w400",
+    deskripsi: "Menger, Mises, dan Hayek sepakat: pasokan uang yang sehat harus bisa meregang mengikuti permintaan. Bagaimana gagasan itu berbenturan dengan mata uang berpasokan tetap seperti Bitcoin? Teori moneter Austria — bagian terapan.",
+  },
+  {
+    judul: "Redenominasi Rupiah",
+    topik: "ekonomi",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-16",
+    link: "https://drive.google.com/file/d/1uQZx1_cvFr3mzPJswenTy0MXkmEt0zKj/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1uQZx1_cvFr3mzPJswenTy0MXkmEt0zKj&sz=w400",
+    deskripsi: "Menghapus nol, bukan mengubah nilai. Analisa dampak bisnis, psikologi harga, dan sistem keuangan. Rp1.000 → Rp1, skala perubahan ÷ 1.000, nilai riil tetap, daya beli tidak berubah.",
+  },
+  {
+    judul: "Kebohongan Tentang \"Nanti\": Mengapa Menunggu Adalah Jebakan",
+    topik: "filsafat",
+    jenis: "Video",
+    kontributor: "hapdul",
+    tanggal: "2026-07-16",
+    link: "https://www.youtube.com/watch?v=kpVZzqlPKdI",
+    thumbnail: "https://img.youtube.com/vi/kpVZzqlPKdI/hqdefault.jpg",
+    deskripsi: "Bahaya tersembunyi dari menunda — perbedaan antara pemenang dan pecundang adalah keberanian untuk memulai hari ini. Day One vs One Day, ilusi modal yang tepat, someday adalah kebohongan terbesar, dan mengapa menunda sebelum tidur semakin berbahaya.",
+  },
 
 
 ];
