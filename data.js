@@ -1920,6 +1920,26 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1vfqbUlv7lCrsSq04zwSqJxHmebm6QGpe&sz=w400",
     deskripsi: "Mengedukasi pengelola komunitas tentang cara mengidentifikasi tipe Bitcoin maximalist (Soft, Hardcore, Toxic) dan strategi praktis untuk mengarahkan energi mereka guna pertumbuhan ekosistem — melalui reframe & redirect energi, pemberian peran spesifik, sistem reward yang sehat, dan apresiasi pada argumentasi kuat yang sopan.",
   },
+  {
+    judul: "Content Creator Automation: Dari Riset Sampai Draft Konten",
+    topik: "ai",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-17",
+    link: "https://drive.google.com/file/d/1Ba5g6FFGXjluNs-l-y0cANhC7onGv6di/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Ba5g6FFGXjluNs-l-y0cANhC7onGv6di&sz=w400",
+    deskripsi: "AI Agent mengotomasi workflow content creator tiap pagi — dari cari topik trending di Twitter/X dan Reddit, baca artikel, ringkas insight, generate ide konten + hook + angle, draft untuk Instagram/TikTok/YouTube/Blog, hingga kirim ke Telegram untuk review. Kamu tinggal review & posting.",
+  },
+  {
+    judul: "How to Win with AI (Without Getting Replaced)",
+    topik: "ai",
+    jenis: "PDF",
+    kontributor: "dhiemazalfa",
+    tanggal: "2026-07-17",
+    link: "https://drive.google.com/file/d/1X17TOd0c-dwQGW2n84sJGEmJOxXjOpfQ/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1X17TOd0c-dwQGW2n84sJGEmJOxXjOpfQ&sz=w400",
+    deskripsi: "Panduan strategis menghadapi era AI — framework Give, Accelerate, Integrate, dan No AI untuk menentukan tugas mana yang diserahkan ke AI, dipercepat, diintegrasikan, atau tetap dikerjakan manusia agar tidak tergantikan.",
+  },
 
 
 ];
