@@ -1890,6 +1890,36 @@ const MATERI = [
     thumbnail: "https://img.youtube.com/vi/kpVZzqlPKdI/hqdefault.jpg",
     deskripsi: "Bahaya tersembunyi dari menunda — perbedaan antara pemenang dan pecundang adalah keberanian untuk memulai hari ini. Day One vs One Day, ilusi modal yang tepat, someday adalah kebohongan terbesar, dan mengapa menunda sebelum tidur semakin berbahaya.",
   },
+  {
+    judul: "Dari Amarah Menjadi Aset",
+    topik: "bitcoin",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-17",
+    link: "https://drive.google.com/file/d/1kUkBRBdFtGPVZrYSA0nlfq8mRo-LUyOT/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1kUkBRBdFtGPVZrYSA0nlfq8mRo-LUyOT&sz=w400",
+    deskripsi: "Mengubah ideologi toxic maximalist menjadi nilai, pengalaman, dan aset nyata melalui semangat Cypherpunk & Bitcoin Manifesto. Bitcoin Only · Privacy is Normal · Code is Law · Bitcoin Fixes This.",
+  },
+  {
+    judul: "Panduan Anti-Rugi Pemula: Rahasia Trading Nyaman & Cuan",
+    topik: "technicalanalysis",
+    jenis: "PDF",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-17",
+    link: "https://drive.google.com/file/d/1A_iv9dFhnNtfQCzEii-Eou-JbNvA9dr8/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1A_iv9dFhnNtfQCzEii-Eou-JbNvA9dr8&sz=w400",
+    deskripsi: "Buku Saku Petualang Saham — panduan trading untuk pemula menggunakan sistem SVMT yang mudah dipahami orang awam.",
+  },
+  {
+    judul: "Spektrum Bitcoin Maximalist: Mengubah \"Toxic\" Menjadi Aset Komunitas",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-17",
+    link: "https://drive.google.com/file/d/1vfqbUlv7lCrsSq04zwSqJxHmebm6QGpe/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1vfqbUlv7lCrsSq04zwSqJxHmebm6QGpe&sz=w400",
+    deskripsi: "Mengedukasi pengelola komunitas tentang cara mengidentifikasi tipe Bitcoin maximalist (Soft, Hardcore, Toxic) dan strategi praktis untuk mengarahkan energi mereka guna pertumbuhan ekosistem — melalui reframe & redirect energi, pemberian peran spesifik, sistem reward yang sehat, dan apresiasi pada argumentasi kuat yang sopan.",
+  },
 
 
 ];
