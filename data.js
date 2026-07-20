@@ -1940,6 +1940,16 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1X17TOd0c-dwQGW2n84sJGEmJOxXjOpfQ&sz=w400",
     deskripsi: "Panduan strategis menghadapi era AI — framework Give, Accelerate, Integrate, dan No AI untuk menentukan tugas mana yang diserahkan ke AI, dipercepat, diintegrasikan, atau tetap dikerjakan manusia agar tidak tergantikan.",
   },
+  {
+    judul: "Panduan Anti-Karam di Lautan Trading",
+    topik: "technicalanalysis",
+    jenis: "PDF",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-19",
+    link: "https://drive.google.com/file/d/1V8gYNmeIEm0DKfuBMlZQxez9b-qfIqEd/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1V8gYNmeIEm0DKfuBMlZQxez9b-qfIqEd&sz=w400",
+    deskripsi: "Cara simpel memahami Stop Loss, Take Profit, & Position Sizing (tanpa pusing rumus matematika!). 90% trader pemula fokus pada kecepatan, lupa bawa pelampung — 10% trader sukses paham bahwa bertahan hidup adalah aturan nomor satu.",
+  },
 
 
 ];
