@@ -1990,6 +1990,16 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1DEjep2pkVNzP4u2sWHoNqRo1dosHiVH1&sz=w400",
     deskripsi: "Dari transaksi di mempool hingga blok yang mengunci masa depan uang. Proof of Work · Hashrate · Halving · Energi · Ekonomi masa depan. SHA-256 · secp256k1 · PoW.",
   },
+  {
+    judul: "Stackelberg Game: Bitcoin Arena Dominan dalam Model Stackelberg",
+    topik: "ekonomi",
+    jenis: "Infographic",
+    kontributor: "Realino RL, Bitcoin SatoshiCat",
+    tanggal: "2026-07-21",
+    link: "https://drive.google.com/file/d/1CRRFISty-VjdyI5JmHKLYuaDDGmPeBse/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1CRRFISty-VjdyI5JmHKLYuaDDGmPeBse&sz=w400",
+    deskripsi: "Model game theory Stackelberg (1934) — strategi bergerak lebih dulu, keuntungan di tangan Anda. Dalam ekosistem Bitcoin, keputusan dipengaruhi leader opini yang membentuk narasi terlebih dahulu. Self custody adalah satu-satunya cara, Bitcoin adalah Digital Gold — narasi menjadi first move yang menentukan ekspektasi mayoritas.",
+  },
 
 
 ];
