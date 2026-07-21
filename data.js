@@ -1971,7 +1971,7 @@ const MATERI = [
     deskripsi: "Analisis skenario ekstrem — faktor, efek, dan skenario collapse dilihat dari network, security, likuiditas, regulasi & psikologi pasar. Apocalypse Edition.",
   },
   {
-    judul: "Broken Money. Future Finance.",
+    judul: "Strategi dan Adaptif dari Fiat System ke Desentralisasi",
     topik: "bitcoin",
     jenis: "PDF",
     kontributor: "Aryo Utomo",
