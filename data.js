@@ -2000,6 +2000,38 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1CRRFISty-VjdyI5JmHKLYuaDDGmPeBse&sz=w400",
     deskripsi: "Model game theory Stackelberg (1934) — strategi bergerak lebih dulu, keuntungan di tangan Anda. Dalam ekosistem Bitcoin, keputusan dipengaruhi leader opini yang membentuk narasi terlebih dahulu. Self custody adalah satu-satunya cara, Bitcoin adalah Digital Gold — narasi menjadi first move yang menentukan ekspektasi mayoritas.",
   },
+  {
+    judul: "Bitcoin Fork Survival Guide: Stay Sovereign. Stay Safe.",
+    topik: "bitcointechnicals",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-21",
+    link: "https://drive.google.com/file/d/14hz3Ju4uQuWvJGVMvDl82qmbpzq6rntf/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=14hz3Ju4uQuWvJGVMvDl82qmbpzq6rntf&sz=w400",
+    deskripsi: "Fork adalah percabangan blockchain menjadi dua jaringan dengan aturan berbeda. Panduan lengkap menghadapi fork — risiko exchange & security, hubungan eCash dengan Bitcoin, dampak fork ke mining, solusi & best practice (self custody, pause transaksi, tunggu konfirmasi), hingga dampak ke holder. Prinsip utama: pemegang private key adalah pemilik sejati. Not your keys, not your coins.",
+  },
 
+
+
+  {
+    judul: "Strategi Penetrasi Bitcoin untuk Kalangan Old Money",
+    topik: "ekonomi",
+    jenis: "Infographic",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-09",
+    link: "https://drive.google.com/file/d/1rhBrNyphFB6TYOkXSGRRxap57j_QbmiS/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1rhBrNyphFB6TYOkXSGRRxap57j_QbmiS&sz=w400",
+    deskripsi: "Treasury, Mining, dan OTC Desk — tiga strategi penetrasi Bitcoin untuk Old Money sebagai digital hard asset preservasi kekayaan lintas generasi. Bitcoin bukan peluang, tapi proteksi.",
+  },
+  {
+    judul: "Bitcoin Fork Survival Guide: Stay Sovereign. Stay Safe.",
+    topik: "bitcointechnicals",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-23",
+    link: "https://drive.google.com/file/d/1RWTAGmfSfaLjU4xdrm0S0Qgl7aOnI3_e/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1RWTAGmfSfaLjU4xdrm0S0Qgl7aOnI3_e&sz=w400",
+    deskripsi: "Panduan lengkap bertahan di tengah percabangan blockchain — apa itu fork, risiko bagi holder & miner, hubungan eCash dengan Bitcoin, hingga best practice self custody. Not your keys, not your coins.",
+  },
 
 ];
