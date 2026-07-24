@@ -2024,6 +2024,16 @@ const MATERI = [
     deskripsi: "Treasury, Mining, dan OTC Desk — tiga strategi penetrasi Bitcoin untuk Old Money sebagai digital hard asset preservasi kekayaan lintas generasi. Bitcoin bukan peluang, tapi proteksi.",
   },
   {
+    judul: "Bitcoin Fork Survival Guide: Stay Sovereign. Stay Safe.",
+    topik: "bitcointechnicals",
+    jenis: "PDF",
+    kontributor: "Aryo Utomo",
+    tanggal: "2026-07-23",
+    link: "https://drive.google.com/file/d/1RWTAGmfSfaLjU4xdrm0S0Qgl7aOnI3_e/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1RWTAGmfSfaLjU4xdrm0S0Qgl7aOnI3_e&sz=w400",
+    deskripsi: "Panduan lengkap bertahan di tengah percabangan blockchain — apa itu fork, risiko bagi holder & miner, hubungan eCash dengan Bitcoin, hingga best practice self custody. Not your keys, not your coins.",
+  },
+  {
     judul: "Bitcoin Tanpa Harga: 9 Sudut Pandang, Risiko, dan Produksi di Balik Bitcoin",
     topik: "bitcoin",
     jenis: "PDF",
