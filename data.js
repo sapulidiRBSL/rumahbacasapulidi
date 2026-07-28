@@ -2113,5 +2113,15 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1memeidIVO-YJs66B0oiMAwhMA1xsaBeA&sz=w400",
     deskripsi: "9 analogi bisnis kuliner untuk trading: Modal=Bahan Baku, Platform=Dapur, Strategi=Resep, Biaya Operasional, Proses Memasak=Proses Trading, Pelanggan=Pasar, Keuntungan=Laba Bersih, Risiko=Kegagalan Usaha, dan Kembangkan Usaha. Jadi Trader = Jadi Pengusaha!",
   },
+  {
+    judul: "Strategy Pengelolaan Aset Bitcoin: Dari < 100 Jt Sampai 2 Milyar (1 BTC)",
+    topik: "bitcoin",
+    jenis: "Infographic",
+    kontributor: "annasahmads",
+    tanggal: "2026-07-28",
+    link: "https://drive.google.com/file/d/1mySZWPej0rOwyELerwhv-4Zr2q98qDuN/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1mySZWPej0rOwyELerwhv-4Zr2q98qDuN&sz=w400",
+    deskripsi: "4 level pengelolaan aset Bitcoin — Starter (<100jt), Builder (100jt-500jt), Protector (500jt-2M), Fortress (2M/1BTC) — lengkap dengan pembagian aset, strategi penyimpanan (Hot Wallet, Cold Wallet, Multi-Sig 2-of-3), dan Rule Emas Bitcoiner: Not your keys, not your coins.",
+  },
 
 ];
