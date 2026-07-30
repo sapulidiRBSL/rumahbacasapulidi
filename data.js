@@ -2265,7 +2265,7 @@ const MATERI = [
   },
   {
     judul: "Sejarah Penciptaan Bitcoin",
-    topik: "sejarah",
+    topik: "bitcoin",
     jenis: "PDF",
     kontributor: "Aryo Utomo",
     tanggal: "2026-07-29",
@@ -2275,7 +2275,7 @@ const MATERI = [
   },
   {
     judul: "Mengungkap Identitas Satoshi Nakamoto",
-    topik: "sejarah",
+    topik: "bitcoin",
     jenis: "PDF",
     kontributor: "Aryo Utomo",
     tanggal: "2026-07-29",
@@ -2305,7 +2305,7 @@ const MATERI = [
   },
   {
     judul: "Jika Satoshi Nakamoto Muncul: Apa yang Akan Terjadi pada Bitcoin?",
-    topik: "sejarah",
+    topik: "bitcoin",
     jenis: "PDF",
     kontributor: "Aryo Utomo",
     tanggal: "2026-07-29",
