@@ -2453,5 +2453,15 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1wAZgAIkPt4QVe3GB3GZkzVKKaMvix1l1&sz=w400",
     deskripsi: "Kaya: fokus membeli barang untuk pamer, uang mengontrol hidup dan identitas, hasil akhir cemas dan terikat. Sejahtera: fokus membeli waktu dan kebebasan, menggunakan uang sebagai alat, hasil akhir tenang dan merdeka.",
   },
+  {
+    judul: "mBridge, SDG 1, & Bitcoin: Siapa Sebenarnya yang Pegang Kunci Uang Lu?",
+    topik: "ekonomi",
+    jenis: "PDF",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-08-01",
+    link: "https://drive.google.com/file/d/1_6DvDLmV-RRARfx2cDyVlmRR4aqBMSdb/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1_6DvDLmV-RRARfx2cDyVlmRR4aqBMSdb&sz=w400",
+    deskripsi: "Obrolan santai dari hati ke hati tentang masa depan kebebasan finansial, pengentasan kemiskinan, dan zaman para monster.",
+  },
 
 ];
