@@ -2473,5 +2473,15 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=10MBoZJWptGxPwd2LoZEscZ8TpIMPqAN_&sz=w400",
     deskripsi: "Dibaca sambil duduk di lantai, jemuran masih nemplok di pintu. Gue bukan whale. Gue cuma selokan kecil di bawah langit megah para HSFP. Selamat datang di rumah gue. Awas kesandung sendal.",
   },
+  {
+    judul: "The High Cost of Decentralized Conviction",
+    topik: "bitcoinphilosophy",
+    jenis: "PDF",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-08-01",
+    link: "https://drive.google.com/file/d/1v5yi2C7tIa8i1NITGWuMoJef83kqmOBq/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=1v5yi2C7tIa8i1NITGWuMoJef83kqmOBq&sz=w400",
+    deskripsi: "I know you want to save the world. But at what cost? Sebuah refleksi tentang harga yang dibayar untuk memegang keyakinan terdesentralisasi.",
+  },
 
 ];
