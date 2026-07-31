@@ -2463,5 +2463,15 @@ const MATERI = [
     thumbnail: "https://drive.google.com/thumbnail?id=1_6DvDLmV-RRARfx2cDyVlmRR4aqBMSdb&sz=w400",
     deskripsi: "Obrolan santai dari hati ke hati tentang masa depan kebebasan finansial, pengentasan kemiskinan, dan zaman para monster.",
   },
+  {
+    judul: "Gue Bitcoiner Minimalist Type 21.",
+    topik: "bitcoinphilosophy",
+    jenis: "PDF",
+    kontributor: "Bitcoin SatoshiCat",
+    tanggal: "2026-08-01",
+    link: "https://drive.google.com/file/d/10MBoZJWptGxPwd2LoZEscZ8TpIMPqAN_/view?usp=sharing",
+    thumbnail: "https://drive.google.com/thumbnail?id=10MBoZJWptGxPwd2LoZEscZ8TpIMPqAN_&sz=w400",
+    deskripsi: "Dibaca sambil duduk di lantai, jemuran masih nemplok di pintu. Gue bukan whale. Gue cuma selokan kecil di bawah langit megah para HSFP. Selamat datang di rumah gue. Awas kesandung sendal.",
+  },
 
 ];
